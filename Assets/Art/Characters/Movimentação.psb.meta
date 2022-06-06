@@ -1,0 +1,1294 @@
+fileFormatVersion: 2
+guid: f2b50a0b8811b2e40aa489f32249bd3c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 1800
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Happy_walk_back_3/4_ 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 83659c9ee2f2b384b8ff94fe2100ed2c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Happy_walk_back_3/4_ 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 4bf299a0b4a1d0446a8d10facd819541
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2012}
+  - name: Happy_walk_front_3/4_ 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 238ae1143c1ec55478ef7dbf00317ed6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6028}
+  - name: Happy_walk_front_3/4_ 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: ae139d9df0d0bfe40a3f69fc71c6529e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4020}
+  - name: Happy_walk_back 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: ed6b4383aa56b8645a2a1b3c92c72480
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8036}
+  - name: Happy_walk_back 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: a2c444c96817ce149815be0482bfd928
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 10044}
+  - name: Happy_walk_side 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 66e27b2bc17af544782bc4499fafa955
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 12052}
+  - name: Happy_walk_side 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: d85aaae1f99d1ad4fb1094607fd01ddf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 14060}
+  - name: Happy_walk_front 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: e894c9eacb6d16647bb584a2d64bcd1f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4}
+  - name: Happy_walk_front 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: a89a319965f4a91439beda7543bbd6f1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 2012}
+  - name: Happy_idle 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: a0037573300ab254ba8b0e91ac7dc46f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4020}
+  - name: Happy_idle 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: b612f5bdcc1fe0b46839f1477b71aa27
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 6028}
+  - name: Happy_idle 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 4ee5b4bd0bf377d4db93135895052855
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 8036}
+  - name: Happy_idle 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 218bd9e388ac8f84c822e4b488b962ee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 10044}
+  - name: Happy_idle 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 078284ee6c3dd5e40b606ae67b0510ba
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 12052}
+  - name: Happy_idle_blink 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: b2b4b0f5ed7bed44e8ed1e254aa6a469
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 14060}
+  - name: Happy_idle 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: da356549a0916d24bb46ae8b15fc8748
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 4}
+  - name: Happy_idle 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 8a7e4aa8c43bcdb41868a7ca86bd64a4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 2012}
+  rigSpriteImportData:
+  - name: Happy_walk_back_3/4_ 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 6c9f4aa6a7bcc904d9adfcdd9bb41f23
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Happy_walk_back_3/4_ 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: eaf245af0b744ef4bac14dbcb85516fa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2012}
+  - name: Happy_walk_front_3/4_ 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: de0341643d63aca4da9d07c22c4e7e99
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4020}
+  - name: Happy_walk_front_3/4_ 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 3d1d27d445a500a4ead4a3bf98bcabc9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6028}
+  - name: Happy_walk_back 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: c229995d41419cf41abc869aabc2fb20
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8036}
+  - name: Happy_walk_back 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 0c17f3eb9abe23142ac058d067704bc4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 10044}
+  - name: Happy_walk_side 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: a06e8e1143537a34d8e36a8b8a4156c4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 12052}
+  - name: Happy_walk_side 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 9385595879fb1d04cba95ee317aad706
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 14060}
+  - name: Happy_walk_front 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 6ff9b5fd8dacbe9488f7f08331b7453b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4}
+  - name: Happy_walk_front 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: a6a3506bd9bd74745b27f4a55e0cbaee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 2012}
+  - name: Happy_idle 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 3676ccc7944015047af8bb56ad60025e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4020}
+  - name: Happy_idle 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 00f426d98c59ec64da6750b7c1d411db
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 6028}
+  - name: Happy_idle 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 46b81d4d883e7bd4983c41e0e423b701
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 8036}
+  - name: Happy_idle 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: b96b2283d21703e4da093d76c717a824
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 10044}
+  - name: Happy_idle 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 1e636bd5597483f4283d96d0a0e939dc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 12052}
+  - name: Happy_idle_blink 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 337f2a8d1ddf90a4d92377be3ae084d8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 14060}
+  - name: Happy_idle 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 7f29c46f37535e84a8cf82bdd7bbb2f6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 4}
+  - name: Happy_idle 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: f54a5b491cb5e8b448cfd0f6cb4220a3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 2012}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 2000, y: 2000}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 8192
+  textureActualHeight: 16384
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Andandoo de costas 3/4 copiar
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 172
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_back_3/4_ 1
+    spriteName: Happy_walk_back_3/4_ 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 83659c9ee2f2b384b8ff94fe2100ed2c
+    layerID: 173
+    mosaicPosition: {x: 4, y: 4}
+  - name: Happy_walk_back_3/4_ 1
+    spriteName: Happy_walk_back_3/4_ 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4bf299a0b4a1d0446a8d10facd819541
+    layerID: 170
+    mosaicPosition: {x: 4, y: 2012}
+  - name: Andando de frente 3/4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_front_3/4_ 1
+    spriteName: Happy_walk_front_3/4_ 1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: ae139d9df0d0bfe40a3f69fc71c6529e
+    layerID: 165
+    mosaicPosition: {x: 4, y: 4020}
+  - name: Happy_walk_front_3/4_ 2
+    spriteName: Happy_walk_front_3/4_ 2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 238ae1143c1ec55478ef7dbf00317ed6
+    layerID: 166
+    mosaicPosition: {x: 4, y: 6028}
+  - name: 'Costas andando '
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 160
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_back 2
+    spriteName: Happy_walk_back 2
+    isGroup: 0
+    parentIndex: 6
+    spriteID: ed6b4383aa56b8645a2a1b3c92c72480
+    layerID: 159
+    mosaicPosition: {x: 4, y: 8036}
+  - name: Happy_walk_back 1
+    spriteName: Happy_walk_back 1
+    isGroup: 0
+    parentIndex: 6
+    spriteID: a2c444c96817ce149815be0482bfd928
+    layerID: 158
+    mosaicPosition: {x: 4, y: 10044}
+  - name: Lado andando
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 153
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_side 2
+    spriteName: Happy_walk_side 2
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 66e27b2bc17af544782bc4499fafa955
+    layerID: 155
+    mosaicPosition: {x: 4, y: 12052}
+  - name: Happy_walk_side 1
+    spriteName: Happy_walk_side 1
+    isGroup: 0
+    parentIndex: 9
+    spriteID: d85aaae1f99d1ad4fb1094607fd01ddf
+    layerID: 151
+    mosaicPosition: {x: 4, y: 14060}
+  - name: Frente andando
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 150
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_front 2
+    spriteName: Happy_walk_front 2
+    isGroup: 0
+    parentIndex: 12
+    spriteID: e894c9eacb6d16647bb584a2d64bcd1f
+    layerID: 125
+    mosaicPosition: {x: 2012, y: 4}
+  - name: Happy_walk_front 1
+    spriteName: Happy_walk_front 1
+    isGroup: 0
+    parentIndex: 12
+    spriteID: a89a319965f4a91439beda7543bbd6f1
+    layerID: 124
+    mosaicPosition: {x: 2012, y: 2012}
+  - name: Frente Parado
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_idle 8
+    spriteName: Happy_idle 8
+    isGroup: 0
+    parentIndex: 15
+    spriteID: a0037573300ab254ba8b0e91ac7dc46f
+    layerID: 35
+    mosaicPosition: {x: 2012, y: 4020}
+  - name: Happy_idle 7
+    spriteName: Happy_idle 7
+    isGroup: 0
+    parentIndex: 15
+    spriteID: b612f5bdcc1fe0b46839f1477b71aa27
+    layerID: 12
+    mosaicPosition: {x: 2012, y: 6028}
+  - name: Happy_idle 6
+    spriteName: Happy_idle 6
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 4ee5b4bd0bf377d4db93135895052855
+    layerID: 13
+    mosaicPosition: {x: 2012, y: 8036}
+  - name: Happy_idle 5
+    spriteName: Happy_idle 5
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 218bd9e388ac8f84c822e4b488b962ee
+    layerID: 10
+    mosaicPosition: {x: 2012, y: 10044}
+  - name: Happy_idle 4
+    spriteName: Happy_idle 4
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 078284ee6c3dd5e40b606ae67b0510ba
+    layerID: 5
+    mosaicPosition: {x: 2012, y: 12052}
+  - name: Happy_idle_blink 3
+    spriteName: Happy_idle_blink 3
+    isGroup: 0
+    parentIndex: 15
+    spriteID: b2b4b0f5ed7bed44e8ed1e254aa6a469
+    layerID: 30
+    mosaicPosition: {x: 2012, y: 14060}
+  - name: Happy_idle 2
+    spriteName: Happy_idle 2
+    isGroup: 0
+    parentIndex: 15
+    spriteID: da356549a0916d24bb46ae8b15fc8748
+    layerID: 7
+    mosaicPosition: {x: 4020, y: 4}
+  - name: Happy_idle 1
+    spriteName: Happy_idle 1
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 8a7e4aa8c43bcdb41868a7ca86bd64a4
+    layerID: 3
+    mosaicPosition: {x: 4020, y: 2012}
+  rigPSDLayers:
+  - name: Andandoo de costas 3/4 copiar
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 172
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_back_3/4_ 1
+    spriteName: Happy_walk_back_3/4_ 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6c9f4aa6a7bcc904d9adfcdd9bb41f23
+    layerID: 173
+    mosaicPosition: {x: 4, y: 4}
+  - name: Happy_walk_back_3/4_ 1
+    spriteName: Happy_walk_back_3/4_ 1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: eaf245af0b744ef4bac14dbcb85516fa
+    layerID: 170
+    mosaicPosition: {x: 4, y: 2012}
+  - name: Andando de frente 3/4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 167
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_front_3/4_ 2
+    spriteName: Happy_walk_front_3/4_ 2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: de0341643d63aca4da9d07c22c4e7e99
+    layerID: 166
+    mosaicPosition: {x: 4, y: 4020}
+  - name: Happy_walk_front_3/4_ 1
+    spriteName: Happy_walk_front_3/4_ 1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 3d1d27d445a500a4ead4a3bf98bcabc9
+    layerID: 165
+    mosaicPosition: {x: 4, y: 6028}
+  - name: 'Costas andando '
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 160
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_back 2
+    spriteName: Happy_walk_back 2
+    isGroup: 0
+    parentIndex: 6
+    spriteID: c229995d41419cf41abc869aabc2fb20
+    layerID: 159
+    mosaicPosition: {x: 4, y: 8036}
+  - name: Happy_walk_back 1
+    spriteName: Happy_walk_back 1
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 0c17f3eb9abe23142ac058d067704bc4
+    layerID: 158
+    mosaicPosition: {x: 4, y: 10044}
+  - name: Lado andando
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 153
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_side 2
+    spriteName: Happy_walk_side 2
+    isGroup: 0
+    parentIndex: 9
+    spriteID: a06e8e1143537a34d8e36a8b8a4156c4
+    layerID: 155
+    mosaicPosition: {x: 4, y: 12052}
+  - name: Happy_walk_side 1
+    spriteName: Happy_walk_side 1
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 9385595879fb1d04cba95ee317aad706
+    layerID: 151
+    mosaicPosition: {x: 4, y: 14060}
+  - name: Frente andando
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 150
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_walk_front 2
+    spriteName: Happy_walk_front 2
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 6ff9b5fd8dacbe9488f7f08331b7453b
+    layerID: 125
+    mosaicPosition: {x: 2012, y: 4}
+  - name: Happy_walk_front 1
+    spriteName: Happy_walk_front 1
+    isGroup: 0
+    parentIndex: 12
+    spriteID: a6a3506bd9bd74745b27f4a55e0cbaee
+    layerID: 124
+    mosaicPosition: {x: 2012, y: 2012}
+  - name: Frente Parado
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+  - name: Happy_idle 8
+    spriteName: Happy_idle 8
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 3676ccc7944015047af8bb56ad60025e
+    layerID: 35
+    mosaicPosition: {x: 2012, y: 4020}
+  - name: Happy_idle 7
+    spriteName: Happy_idle 7
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 00f426d98c59ec64da6750b7c1d411db
+    layerID: 12
+    mosaicPosition: {x: 2012, y: 6028}
+  - name: Happy_idle 6
+    spriteName: Happy_idle 6
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 46b81d4d883e7bd4983c41e0e423b701
+    layerID: 13
+    mosaicPosition: {x: 2012, y: 8036}
+  - name: Happy_idle 5
+    spriteName: Happy_idle 5
+    isGroup: 0
+    parentIndex: 15
+    spriteID: b96b2283d21703e4da093d76c717a824
+    layerID: 10
+    mosaicPosition: {x: 2012, y: 10044}
+  - name: Happy_idle 4
+    spriteName: Happy_idle 4
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 1e636bd5597483f4283d96d0a0e939dc
+    layerID: 5
+    mosaicPosition: {x: 2012, y: 12052}
+  - name: Happy_idle_blink 3
+    spriteName: Happy_idle_blink 3
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 337f2a8d1ddf90a4d92377be3ae084d8
+    layerID: 30
+    mosaicPosition: {x: 2012, y: 14060}
+  - name: Happy_idle 2
+    spriteName: Happy_idle 2
+    isGroup: 0
+    parentIndex: 15
+    spriteID: 7f29c46f37535e84a8cf82bdd7bbb2f6
+    layerID: 7
+    mosaicPosition: {x: 4020, y: 4}
+  - name: Happy_idle 1
+    spriteName: Happy_idle 1
+    isGroup: 0
+    parentIndex: 15
+    spriteID: f54a5b491cb5e8b448cfd0f6cb4220a3
+    layerID: 3
+    mosaicPosition: {x: 4020, y: 2012}
+  sharedRigPSDLayers: []
+  generateGOHierarchy: 0
+  textureAssetName: "Movimenta\xE7\xE3o Texture"
+  prefabAssetName: "Movimenta\xE7\xE3o Prefab"
+  spriteLibAssetName: "Movimenta\xE7\xE3o Sprite Lib"
+  skeletonAssetName: "Movimenta\xE7\xE3o Skeleton"
+  secondarySpriteTextures: []

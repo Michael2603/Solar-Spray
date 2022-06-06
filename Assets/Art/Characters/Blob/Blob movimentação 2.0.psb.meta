@@ -1,0 +1,3252 @@
+fileFormatVersion: 2
+guid: ed73cc739c5ed924a914b29c3ac8dabc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 800
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: 'Vfx_white bubble_2 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 16068
+      width: 65
+      height: 65
+    spriteID: 67ff96cf1c1a5874ab8cb74d7641f0cc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1297, y: 14406}
+  - name: Vfx_black bubble_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 16068
+      width: 65
+      height: 65
+    spriteID: c2f81ae2af104b54e8fbc45bfd15aec9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1058, y: 14406}
+  - name: 'Vfx_white bubble_1 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 16068
+      width: 58
+      height: 135
+    spriteID: 5502e83b774d3ab4982a99c31ee6c348
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -824, y: 14447}
+  - name: Vfx_black bubble_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 16068
+      width: 58
+      height: 135
+    spriteID: 5e769f121969923428f52e98d7e8505f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -519, y: 14447}
+  - name: Blolb_Walk_back 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: deca8f7ed30449343b2e6d26b50ce02b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Blolb_Walk_back 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: b153d8307f390f14ca366180881aef8b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2012}
+  - name: Blolb_Walk_back 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 0e1ba0f147e12fe4689984500a10f3b6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4020}
+  - name: Blolb_Walk_back 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: e9eae685f98ba17489db0262a647fb97
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6028}
+  - name: Blolb_Walk_back 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 62efbc85a307ed548844b3788b0405e4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8036}
+  - name: Blolb_Walk_back 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 4a5de18be3d5e2b4cb1b12318109de1d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 10044}
+  - name: Blolb_Walk_front 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 0812e109662494b499c6bad36e7d3071
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 12052}
+  - name: Blolb_Walk_front 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 3c6ce5527c2c79a4a878be583aceb761
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 14060}
+  - name: Blolb_Walk_front 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: c1b107322dbe23d4c9e78e2f103d3550
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4}
+  - name: Blolb_Walk_front 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: c7c6e45cc8ea3834787293bd4bb048ae
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 2012}
+  - name: Blolb_Walk_front 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 592ab8c8bb6b2db47b17c22b5e6e17a0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4020}
+  - name: Blolb_Walk_front 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: a0bf64f269e12cb4884f15547d0ec093
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 6028}
+  - name: Blolb_Walk_right 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 1097e8119d9adf042b13c2b0a7d2b60a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 8036}
+  - name: Blolb_Walk_right 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: c8ceb25b8ec600a46853aa58b8faf9cc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 10044}
+  - name: Blolb_Walk_right 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 72c1947028dcf2d41872735bd05305aa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 12052}
+  - name: Blolb_Walk_right 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 77d38cd4518420b4aa332f5ed9981307
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 14060}
+  - name: Blolb_Walk_right 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 436a2f10ac15b7e42b930737b19f7ce1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 4}
+  - name: Blolb_Walk_right 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 51fbc0a841be20443b8f47daaed31d65
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 2012}
+  - name: Blolb_Walk_left 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 38ad889923d320a4ab3b231c57bd3144
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 4020}
+  - name: Blolb_Walk_left 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: ab02c94348dc2ea44904cc84038f032e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 6028}
+  - name: Blolb_Walk_left 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 3ac7da5d29e5e0d429ce941a137ad616
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 8036}
+  - name: Blolb_Walk_left 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 1832fd367cbc2e0499bcb918808b7ba1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 10044}
+  - name: Blolb_Walk_left 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: ebdb8b6f20560a5459dd55e6208b385d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 12052}
+  - name: Blolb_Walk_left 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 1013035e8cb57d441b1dd22e3610b0f9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 14060}
+  - name: Glob_Explosion 23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: be1625866b3cc614fbd2f1500040e027
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 4}
+  - name: Glob_Explosion 22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: d0824e2d858a82b4cb2ce7c0de90008b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 2012}
+  - name: Glob_Explosion 21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: d48f5bcfa1c39d2418bd10ec2c96645a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 4020}
+  - name: Glob_Explosion 20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 2a980c74a20753c4ba8d28893b39f1dc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 6028}
+  - name: Glob_Explosion 19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 8bd086155231f76469f6a707be596140
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 8036}
+  - name: Glob_Explosion 18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: e323f6dcb23ecd54ab2c6f9bb79a75f0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 10044}
+  - name: Glob_Explosion 17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: cc996dc0d28ca3b4ba0968a4ad05c08c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 12052}
+  - name: Glob_Explosion 16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: d1bb8c1495876734bb8e1d3574018625
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 14060}
+  - name: Glob_Explosion 15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 42d8a00f3845db84e9114853bfc7289d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 4}
+  - name: Glob_Explosion 14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 4ef7a976060c34f48900bb01efef75ab
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 2012}
+  - name: Glob_Explosion 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 1a9d1ab18a600e646b9c492c630124b3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 4020}
+  - name: Glob_Explosion 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 624646496e312cf428e9de28443bc994
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 6028}
+  - name: Glob_Explosion 11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: cfd5f7e061bf8f0498b7054360b15efe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 8036}
+  - name: Glob_Explosion 10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 823a8020ba6c04c409101b1c59d891fb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 10044}
+  - name: Glob_Explosion 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: cf50dfa89c0535441b87eb578fb6212a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 12052}
+  - name: Glob_Explosion 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: f88a9de8e8195ab4d957af5117f6a746
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 14060}
+  - name: Glob_Explosion 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 6ac6b41c84feabd42a07ea906a8d1675
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 4}
+  - name: Glob_Explosion 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 2852024640916ae48b6fb78deb59ed2e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 2012}
+  - name: Glob_Explosion 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 65e4ee4353d711444b137b04d13ac119
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 4020}
+  - name: Glob_Explosion 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 0712ea33d37801342b2de38aa120f065
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 6028}
+  - name: Glob_Explosion 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 1a75c8386dc28194a9dae1b2e69e9d24
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 8036}
+  - name: Glob_Explosion 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 6a59b47328df8f04d9b13bdc3516dd8a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 10044}
+  - name: Glob_Explosion 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: b3667d631feba174885386a42399fd6f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 12052}
+  - name: Plano de Fundo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: ea79a1343d120ac4da38113b9d58d838
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 14060}
+  rigSpriteImportData:
+  - name: 'Vfx_white bubble_2 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 16068
+      width: 65
+      height: 65
+    spriteID: 04aba0f93f04f514a8828000df658ff5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1297, y: 14406}
+  - name: Vfx_black bubble_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 16068
+      width: 65
+      height: 65
+    spriteID: 55dd7501bdd7ce043bad11ba1f63bc81
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1058, y: 14406}
+  - name: 'Vfx_white bubble_1 '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 16068
+      width: 58
+      height: 135
+    spriteID: 9a794a92253bc1f458b4c9ac23ca3c24
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -824, y: 14447}
+  - name: Vfx_black bubble_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 16068
+      width: 58
+      height: 135
+    spriteID: c419c6715b524814f9eaf0156930cceb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -519, y: 14447}
+  - name: Blolb_Walk_back 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 08559d26c3b79504e9c0ccf3f8ecec9d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Blolb_Walk_back 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: d2205dab00d95c0418b3ef60711844a8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2012}
+  - name: Blolb_Walk_back 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: d60924b5a6aa7d74b9830de9a972258d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4020}
+  - name: Blolb_Walk_back 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 5f52f3667c6d15148b7ca7de6219ec9d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 6028}
+  - name: Blolb_Walk_back 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 1e4e6630418ad1a4481b3e21c838fd94
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 8036}
+  - name: Blolb_Walk_back 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 2502d19608d655f4a8f01a761b50cde1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 10044}
+  - name: Blolb_Walk_front 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 9bcd83ba4f9c20f4e9d340f9f73ee6b7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 12052}
+  - name: Blolb_Walk_front 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 00ff05093d3cbb44abff45356a83aeac
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 14060}
+  - name: Blolb_Walk_front 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 4c9ffafe23d3f394fb060194e7945cd5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4}
+  - name: Blolb_Walk_front 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: ae060cf9d53d19d4bb6e79d85443c8b1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 2012}
+  - name: Blolb_Walk_front 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: e07c7a14896b57849ba8407c5e838da1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 4020}
+  - name: Blolb_Walk_front 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: b976f66d43a8a524bb0f2e133020b181
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 6028}
+  - name: Blolb_Walk_right 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 8e8cc5e7e167840469d68111c3e71928
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 8036}
+  - name: Blolb_Walk_right 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: a17ec0ae40cf87d48a78cdaa4f90b2b7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 10044}
+  - name: Blolb_Walk_right 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 76b089d413d97a84d80e25d379b020fd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 12052}
+  - name: Blolb_Walk_right 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2012
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: c42da45f288a69b4c8823e1ebeef8f07
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2012, y: 14060}
+  - name: Blolb_Walk_right 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 63dacecc3a980b940a31bb612ed9b5dc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 4}
+  - name: Blolb_Walk_right 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 0b3dcd79d2e562442aef5ce30288c3d8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 2012}
+  - name: Blolb_Walk_left 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 7dd8b7e7247e89f44a33d17336a3008e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 4020}
+  - name: Blolb_Walk_left 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 13b7503742defc94f9716c7113636651
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 6028}
+  - name: Blolb_Walk_left 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 02f199b314b9b064badb824fd420ec8b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 8036}
+  - name: Blolb_Walk_left 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 24bdff74fc25c7a4fbf99ec0af5122b7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 10044}
+  - name: Blolb_Walk_left 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 9bbe7dc5a854ab249ac35c39cb76fb3c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 12052}
+  - name: Blolb_Walk_left 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4020
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: f58e693f0233fe24e9dbe0090a506fee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4020, y: 14060}
+  - name: Glob_Explosion 23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: cc2c673a9da408f42afeb5a5e83f6261
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 4}
+  - name: Glob_Explosion 22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: aa01829f73eaf454a92a50c5e7ad6141
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 2012}
+  - name: Glob_Explosion 21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 68625a45221a57d428750e9d05dddeca
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 4020}
+  - name: Glob_Explosion 20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: a152ba3417a51bc4f973bbfcc05cea2a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 6028}
+  - name: Glob_Explosion 19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: f003b0a2ae3c82045822207961ae4c34
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 8036}
+  - name: Glob_Explosion 18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: 2c530eb6d790add43827149c70bace0c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 10044}
+  - name: Glob_Explosion 17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: 05d0dd2049dbcd341952c8976de1e1a9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 12052}
+  - name: Glob_Explosion 16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6028
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 119dfd5d0a60ba84a8b9b2a2a9ef6b12
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6028, y: 14060}
+  - name: Glob_Explosion 15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 6e1b4907b4d49e740a494452f129f2ab
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 4}
+  - name: Glob_Explosion 14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 4273cd1bb15b6f64895ce9b06b7baf52
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 2012}
+  - name: Glob_Explosion 13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: 0ba8b9ea806adc744af48a3b2ff1acfb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 4020}
+  - name: Glob_Explosion 12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 2be0570a2236e554394a4daeffb50218
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 6028}
+  - name: Glob_Explosion 11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 511ec0268bdcf874e893135d45e35948
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 8036}
+  - name: Glob_Explosion 10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: cfe8a2500fdd1794fb744a1c54a0fcce
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 10044}
+  - name: Glob_Explosion 9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: c2aaaf593a9198646bb827dcca17bcfe
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 12052}
+  - name: Glob_Explosion 8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8036
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 1fe4f92172b097f4981a132c1ead0883
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 8036, y: 14060}
+  - name: Glob_Explosion 7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 481cbe4d27852b04d8e4facaf1aa69ab
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 4}
+  - name: Glob_Explosion 6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 2012
+      width: 2000
+      height: 2000
+    spriteID: 343b7592f30abfe45b1bad9027b42dde
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 2012}
+  - name: Glob_Explosion 5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 4020
+      width: 2000
+      height: 2000
+    spriteID: ff73586ee3b15314ea59a64036111256
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 4020}
+  - name: Glob_Explosion 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 6028
+      width: 2000
+      height: 2000
+    spriteID: 851a723d0a9158a449840d64680a42be
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 6028}
+  - name: Glob_Explosion 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 8036
+      width: 2000
+      height: 2000
+    spriteID: 5c4d34a99d077d44183100b3b0229666
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 8036}
+  - name: Glob_Explosion 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 10044
+      width: 2000
+      height: 2000
+    spriteID: aa9318f37b9fb9445b8e445f93a25ff6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 10044}
+  - name: Glob_Explosion 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 12052
+      width: 2000
+      height: 2000
+    spriteID: db1419069e0ce5e4f995f6ca71e95cf2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 12052}
+  - name: Plano de Fundo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 10044
+      y: 14060
+      width: 2000
+      height: 2000
+    spriteID: 5fb505d1ba9a1ce419ac9a2935c05adf
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 10044, y: 14060}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2000, y: 2000}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 16384
+  textureActualHeight: 16384
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: 'Vfx_white bubble_2 '
+    spriteName: 'Vfx_white bubble_2 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 67ff96cf1c1a5874ab8cb74d7641f0cc
+    layerID: 159
+    mosaicPosition: {x: 136, y: 16068}
+  - name: Vfx_black bubble_2
+    spriteName: Vfx_black bubble_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c2f81ae2af104b54e8fbc45bfd15aec9
+    layerID: 158
+    mosaicPosition: {x: 209, y: 16068}
+  - name: 'Vfx_white bubble_1 '
+    spriteName: 'Vfx_white bubble_1 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5502e83b774d3ab4982a99c31ee6c348
+    layerID: 157
+    mosaicPosition: {x: 4, y: 16068}
+  - name: Vfx_black bubble_1
+    spriteName: Vfx_black bubble_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5e769f121969923428f52e98d7e8505f
+    layerID: 156
+    mosaicPosition: {x: 70, y: 16068}
+  - name: 'Andando de costas '
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 106
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_back 7
+    spriteName: Blolb_Walk_back 7
+    isGroup: 0
+    parentIndex: 4
+    spriteID: deca8f7ed30449343b2e6d26b50ce02b
+    layerID: 105
+    mosaicPosition: {x: 4, y: 4}
+  - name: Blolb_Walk_back 5
+    spriteName: Blolb_Walk_back 5
+    isGroup: 0
+    parentIndex: 4
+    spriteID: b153d8307f390f14ca366180881aef8b
+    layerID: 104
+    mosaicPosition: {x: 4, y: 2012}
+  - name: Blolb_Walk_back 4
+    spriteName: Blolb_Walk_back 4
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 0e1ba0f147e12fe4689984500a10f3b6
+    layerID: 103
+    mosaicPosition: {x: 4, y: 4020}
+  - name: Blolb_Walk_back 3
+    spriteName: Blolb_Walk_back 3
+    isGroup: 0
+    parentIndex: 4
+    spriteID: e9eae685f98ba17489db0262a647fb97
+    layerID: 102
+    mosaicPosition: {x: 4, y: 6028}
+  - name: Blolb_Walk_back 2
+    spriteName: Blolb_Walk_back 2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 62efbc85a307ed548844b3788b0405e4
+    layerID: 101
+    mosaicPosition: {x: 4, y: 8036}
+  - name: Blolb_Walk_back 1
+    spriteName: Blolb_Walk_back 1
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 4a5de18be3d5e2b4cb1b12318109de1d
+    layerID: 100
+    mosaicPosition: {x: 4, y: 10044}
+  - name: Andando de frente
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_front 6
+    spriteName: Blolb_Walk_front 6
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 0812e109662494b499c6bad36e7d3071
+    layerID: 90
+    mosaicPosition: {x: 4, y: 12052}
+  - name: Blolb_Walk_front 5
+    spriteName: Blolb_Walk_front 5
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 3c6ce5527c2c79a4a878be583aceb761
+    layerID: 89
+    mosaicPosition: {x: 4, y: 14060}
+  - name: Blolb_Walk_front 4
+    spriteName: Blolb_Walk_front 4
+    isGroup: 0
+    parentIndex: 11
+    spriteID: c1b107322dbe23d4c9e78e2f103d3550
+    layerID: 61
+    mosaicPosition: {x: 2012, y: 4}
+  - name: Blolb_Walk_front 3
+    spriteName: Blolb_Walk_front 3
+    isGroup: 0
+    parentIndex: 11
+    spriteID: c7c6e45cc8ea3834787293bd4bb048ae
+    layerID: 60
+    mosaicPosition: {x: 2012, y: 2012}
+  - name: Blolb_Walk_front 2
+    spriteName: Blolb_Walk_front 2
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 592ab8c8bb6b2db47b17c22b5e6e17a0
+    layerID: 59
+    mosaicPosition: {x: 2012, y: 4020}
+  - name: Blolb_Walk_front 1
+    spriteName: Blolb_Walk_front 1
+    isGroup: 0
+    parentIndex: 11
+    spriteID: a0bf64f269e12cb4884f15547d0ec093
+    layerID: 58
+    mosaicPosition: {x: 2012, y: 6028}
+  - name: direita
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 206
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_right 6
+    spriteName: Blolb_Walk_right 6
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 1097e8119d9adf042b13c2b0a7d2b60a
+    layerID: 205
+    mosaicPosition: {x: 2012, y: 8036}
+  - name: Blolb_Walk_right 5
+    spriteName: Blolb_Walk_right 5
+    isGroup: 0
+    parentIndex: 18
+    spriteID: c8ceb25b8ec600a46853aa58b8faf9cc
+    layerID: 204
+    mosaicPosition: {x: 2012, y: 10044}
+  - name: Blolb_Walk_right 4
+    spriteName: Blolb_Walk_right 4
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 72c1947028dcf2d41872735bd05305aa
+    layerID: 203
+    mosaicPosition: {x: 2012, y: 12052}
+  - name: Blolb_Walk_right 3
+    spriteName: Blolb_Walk_right 3
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 77d38cd4518420b4aa332f5ed9981307
+    layerID: 202
+    mosaicPosition: {x: 2012, y: 14060}
+  - name: Blolb_Walk_right 2
+    spriteName: Blolb_Walk_right 2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 436a2f10ac15b7e42b930737b19f7ce1
+    layerID: 201
+    mosaicPosition: {x: 4020, y: 4}
+  - name: Blolb_Walk_right 1
+    spriteName: Blolb_Walk_right 1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 51fbc0a841be20443b8f47daaed31d65
+    layerID: 200
+    mosaicPosition: {x: 4020, y: 2012}
+  - name: Andando de lado
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 87
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_left 6
+    spriteName: Blolb_Walk_left 6
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 38ad889923d320a4ab3b231c57bd3144
+    layerID: 129
+    mosaicPosition: {x: 4020, y: 4020}
+  - name: Blolb_Walk_left 5
+    spriteName: Blolb_Walk_left 5
+    isGroup: 0
+    parentIndex: 25
+    spriteID: ab02c94348dc2ea44904cc84038f032e
+    layerID: 128
+    mosaicPosition: {x: 4020, y: 6028}
+  - name: Blolb_Walk_left 4
+    spriteName: Blolb_Walk_left 4
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 3ac7da5d29e5e0d429ce941a137ad616
+    layerID: 127
+    mosaicPosition: {x: 4020, y: 8036}
+  - name: Blolb_Walk_left 3
+    spriteName: Blolb_Walk_left 3
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 1832fd367cbc2e0499bcb918808b7ba1
+    layerID: 126
+    mosaicPosition: {x: 4020, y: 10044}
+  - name: Blolb_Walk_left 2
+    spriteName: Blolb_Walk_left 2
+    isGroup: 0
+    parentIndex: 25
+    spriteID: ebdb8b6f20560a5459dd55e6208b385d
+    layerID: 125
+    mosaicPosition: {x: 4020, y: 12052}
+  - name: Blolb_Walk_left 1
+    spriteName: Blolb_Walk_left 1
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 1013035e8cb57d441b1dd22e3610b0f9
+    layerID: 124
+    mosaicPosition: {x: 4020, y: 14060}
+  - name: "Explos\xE3o"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+  - name: Glob_Explosion 23
+    spriteName: Glob_Explosion 23
+    isGroup: 0
+    parentIndex: 32
+    spriteID: be1625866b3cc614fbd2f1500040e027
+    layerID: 198
+    mosaicPosition: {x: 6028, y: 4}
+  - name: Glob_Explosion 22
+    spriteName: Glob_Explosion 22
+    isGroup: 0
+    parentIndex: 32
+    spriteID: d0824e2d858a82b4cb2ce7c0de90008b
+    layerID: 197
+    mosaicPosition: {x: 6028, y: 2012}
+  - name: Glob_Explosion 21
+    spriteName: Glob_Explosion 21
+    isGroup: 0
+    parentIndex: 32
+    spriteID: d48f5bcfa1c39d2418bd10ec2c96645a
+    layerID: 196
+    mosaicPosition: {x: 6028, y: 4020}
+  - name: Glob_Explosion 20
+    spriteName: Glob_Explosion 20
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 2a980c74a20753c4ba8d28893b39f1dc
+    layerID: 195
+    mosaicPosition: {x: 6028, y: 6028}
+  - name: Glob_Explosion 19
+    spriteName: Glob_Explosion 19
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 8bd086155231f76469f6a707be596140
+    layerID: 131
+    mosaicPosition: {x: 6028, y: 8036}
+  - name: Glob_Explosion 18
+    spriteName: Glob_Explosion 18
+    isGroup: 0
+    parentIndex: 32
+    spriteID: e323f6dcb23ecd54ab2c6f9bb79a75f0
+    layerID: 130
+    mosaicPosition: {x: 6028, y: 10044}
+  - name: Glob_Explosion 17
+    spriteName: Glob_Explosion 17
+    isGroup: 0
+    parentIndex: 32
+    spriteID: cc996dc0d28ca3b4ba0968a4ad05c08c
+    layerID: 37
+    mosaicPosition: {x: 6028, y: 12052}
+  - name: Glob_Explosion 16
+    spriteName: Glob_Explosion 16
+    isGroup: 0
+    parentIndex: 32
+    spriteID: d1bb8c1495876734bb8e1d3574018625
+    layerID: 36
+    mosaicPosition: {x: 6028, y: 14060}
+  - name: Glob_Explosion 15
+    spriteName: Glob_Explosion 15
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 42d8a00f3845db84e9114853bfc7289d
+    layerID: 34
+    mosaicPosition: {x: 8036, y: 4}
+  - name: Glob_Explosion 14
+    spriteName: Glob_Explosion 14
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 4ef7a976060c34f48900bb01efef75ab
+    layerID: 35
+    mosaicPosition: {x: 8036, y: 2012}
+  - name: Glob_Explosion 13
+    spriteName: Glob_Explosion 13
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 1a9d1ab18a600e646b9c492c630124b3
+    layerID: 32
+    mosaicPosition: {x: 8036, y: 4020}
+  - name: Glob_Explosion 12
+    spriteName: Glob_Explosion 12
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 624646496e312cf428e9de28443bc994
+    layerID: 31
+    mosaicPosition: {x: 8036, y: 6028}
+  - name: Glob_Explosion 11
+    spriteName: Glob_Explosion 11
+    isGroup: 0
+    parentIndex: 32
+    spriteID: cfd5f7e061bf8f0498b7054360b15efe
+    layerID: 30
+    mosaicPosition: {x: 8036, y: 8036}
+  - name: Glob_Explosion 10
+    spriteName: Glob_Explosion 10
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 823a8020ba6c04c409101b1c59d891fb
+    layerID: 29
+    mosaicPosition: {x: 8036, y: 10044}
+  - name: Glob_Explosion 9
+    spriteName: Glob_Explosion 9
+    isGroup: 0
+    parentIndex: 32
+    spriteID: cf50dfa89c0535441b87eb578fb6212a
+    layerID: 28
+    mosaicPosition: {x: 8036, y: 12052}
+  - name: Glob_Explosion 8
+    spriteName: Glob_Explosion 8
+    isGroup: 0
+    parentIndex: 32
+    spriteID: f88a9de8e8195ab4d957af5117f6a746
+    layerID: 26
+    mosaicPosition: {x: 8036, y: 14060}
+  - name: Glob_Explosion 7
+    spriteName: Glob_Explosion 7
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 6ac6b41c84feabd42a07ea906a8d1675
+    layerID: 24
+    mosaicPosition: {x: 10044, y: 4}
+  - name: Glob_Explosion 6
+    spriteName: Glob_Explosion 6
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 2852024640916ae48b6fb78deb59ed2e
+    layerID: 27
+    mosaicPosition: {x: 10044, y: 2012}
+  - name: Glob_Explosion 5
+    spriteName: Glob_Explosion 5
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 65e4ee4353d711444b137b04d13ac119
+    layerID: 20
+    mosaicPosition: {x: 10044, y: 4020}
+  - name: Glob_Explosion 4
+    spriteName: Glob_Explosion 4
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 0712ea33d37801342b2de38aa120f065
+    layerID: 16
+    mosaicPosition: {x: 10044, y: 6028}
+  - name: Glob_Explosion 3
+    spriteName: Glob_Explosion 3
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 1a75c8386dc28194a9dae1b2e69e9d24
+    layerID: 13
+    mosaicPosition: {x: 10044, y: 8036}
+  - name: Glob_Explosion 2
+    spriteName: Glob_Explosion 2
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 6a59b47328df8f04d9b13bdc3516dd8a
+    layerID: 21
+    mosaicPosition: {x: 10044, y: 10044}
+  - name: Glob_Explosion 1
+    spriteName: Glob_Explosion 1
+    isGroup: 0
+    parentIndex: 32
+    spriteID: b3667d631feba174885386a42399fd6f
+    layerID: 22
+    mosaicPosition: {x: 10044, y: 12052}
+  - name: Plano de Fundo
+    spriteName: Plano de Fundo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ea79a1343d120ac4da38113b9d58d838
+    layerID: 1
+    mosaicPosition: {x: 10044, y: 14060}
+  rigPSDLayers:
+  - name: 'Vfx_white bubble_2 '
+    spriteName: 'Vfx_white bubble_2 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 04aba0f93f04f514a8828000df658ff5
+    layerID: 159
+    mosaicPosition: {x: 136, y: 16068}
+  - name: Vfx_black bubble_2
+    spriteName: Vfx_black bubble_2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 55dd7501bdd7ce043bad11ba1f63bc81
+    layerID: 158
+    mosaicPosition: {x: 209, y: 16068}
+  - name: 'Vfx_white bubble_1 '
+    spriteName: 'Vfx_white bubble_1 '
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9a794a92253bc1f458b4c9ac23ca3c24
+    layerID: 157
+    mosaicPosition: {x: 4, y: 16068}
+  - name: Vfx_black bubble_1
+    spriteName: Vfx_black bubble_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c419c6715b524814f9eaf0156930cceb
+    layerID: 156
+    mosaicPosition: {x: 70, y: 16068}
+  - name: 'Andando de costas '
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 106
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_back 7
+    spriteName: Blolb_Walk_back 7
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 08559d26c3b79504e9c0ccf3f8ecec9d
+    layerID: 105
+    mosaicPosition: {x: 4, y: 4}
+  - name: Blolb_Walk_back 5
+    spriteName: Blolb_Walk_back 5
+    isGroup: 0
+    parentIndex: 4
+    spriteID: d2205dab00d95c0418b3ef60711844a8
+    layerID: 104
+    mosaicPosition: {x: 4, y: 2012}
+  - name: Blolb_Walk_back 4
+    spriteName: Blolb_Walk_back 4
+    isGroup: 0
+    parentIndex: 4
+    spriteID: d60924b5a6aa7d74b9830de9a972258d
+    layerID: 103
+    mosaicPosition: {x: 4, y: 4020}
+  - name: Blolb_Walk_back 3
+    spriteName: Blolb_Walk_back 3
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 5f52f3667c6d15148b7ca7de6219ec9d
+    layerID: 102
+    mosaicPosition: {x: 4, y: 6028}
+  - name: Blolb_Walk_back 2
+    spriteName: Blolb_Walk_back 2
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 1e4e6630418ad1a4481b3e21c838fd94
+    layerID: 101
+    mosaicPosition: {x: 4, y: 8036}
+  - name: Blolb_Walk_back 1
+    spriteName: Blolb_Walk_back 1
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 2502d19608d655f4a8f01a761b50cde1
+    layerID: 100
+    mosaicPosition: {x: 4, y: 10044}
+  - name: Andando de frente
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_front 6
+    spriteName: Blolb_Walk_front 6
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 9bcd83ba4f9c20f4e9d340f9f73ee6b7
+    layerID: 90
+    mosaicPosition: {x: 4, y: 12052}
+  - name: Blolb_Walk_front 5
+    spriteName: Blolb_Walk_front 5
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 00ff05093d3cbb44abff45356a83aeac
+    layerID: 89
+    mosaicPosition: {x: 4, y: 14060}
+  - name: Blolb_Walk_front 4
+    spriteName: Blolb_Walk_front 4
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 4c9ffafe23d3f394fb060194e7945cd5
+    layerID: 61
+    mosaicPosition: {x: 2012, y: 4}
+  - name: Blolb_Walk_front 3
+    spriteName: Blolb_Walk_front 3
+    isGroup: 0
+    parentIndex: 11
+    spriteID: ae060cf9d53d19d4bb6e79d85443c8b1
+    layerID: 60
+    mosaicPosition: {x: 2012, y: 2012}
+  - name: Blolb_Walk_front 2
+    spriteName: Blolb_Walk_front 2
+    isGroup: 0
+    parentIndex: 11
+    spriteID: e07c7a14896b57849ba8407c5e838da1
+    layerID: 59
+    mosaicPosition: {x: 2012, y: 4020}
+  - name: Blolb_Walk_front 1
+    spriteName: Blolb_Walk_front 1
+    isGroup: 0
+    parentIndex: 11
+    spriteID: b976f66d43a8a524bb0f2e133020b181
+    layerID: 58
+    mosaicPosition: {x: 2012, y: 6028}
+  - name: direita
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 206
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_right 6
+    spriteName: Blolb_Walk_right 6
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 8e8cc5e7e167840469d68111c3e71928
+    layerID: 205
+    mosaicPosition: {x: 2012, y: 8036}
+  - name: Blolb_Walk_right 5
+    spriteName: Blolb_Walk_right 5
+    isGroup: 0
+    parentIndex: 18
+    spriteID: a17ec0ae40cf87d48a78cdaa4f90b2b7
+    layerID: 204
+    mosaicPosition: {x: 2012, y: 10044}
+  - name: Blolb_Walk_right 4
+    spriteName: Blolb_Walk_right 4
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 76b089d413d97a84d80e25d379b020fd
+    layerID: 203
+    mosaicPosition: {x: 2012, y: 12052}
+  - name: Blolb_Walk_right 3
+    spriteName: Blolb_Walk_right 3
+    isGroup: 0
+    parentIndex: 18
+    spriteID: c42da45f288a69b4c8823e1ebeef8f07
+    layerID: 202
+    mosaicPosition: {x: 2012, y: 14060}
+  - name: Blolb_Walk_right 2
+    spriteName: Blolb_Walk_right 2
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 63dacecc3a980b940a31bb612ed9b5dc
+    layerID: 201
+    mosaicPosition: {x: 4020, y: 4}
+  - name: Blolb_Walk_right 1
+    spriteName: Blolb_Walk_right 1
+    isGroup: 0
+    parentIndex: 18
+    spriteID: 0b3dcd79d2e562442aef5ce30288c3d8
+    layerID: 200
+    mosaicPosition: {x: 4020, y: 2012}
+  - name: Andando de lado
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 87
+    mosaicPosition: {x: 0, y: 0}
+  - name: Blolb_Walk_left 6
+    spriteName: Blolb_Walk_left 6
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 7dd8b7e7247e89f44a33d17336a3008e
+    layerID: 129
+    mosaicPosition: {x: 4020, y: 4020}
+  - name: Blolb_Walk_left 5
+    spriteName: Blolb_Walk_left 5
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 13b7503742defc94f9716c7113636651
+    layerID: 128
+    mosaicPosition: {x: 4020, y: 6028}
+  - name: Blolb_Walk_left 4
+    spriteName: Blolb_Walk_left 4
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 02f199b314b9b064badb824fd420ec8b
+    layerID: 127
+    mosaicPosition: {x: 4020, y: 8036}
+  - name: Blolb_Walk_left 3
+    spriteName: Blolb_Walk_left 3
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 24bdff74fc25c7a4fbf99ec0af5122b7
+    layerID: 126
+    mosaicPosition: {x: 4020, y: 10044}
+  - name: Blolb_Walk_left 2
+    spriteName: Blolb_Walk_left 2
+    isGroup: 0
+    parentIndex: 25
+    spriteID: 9bbe7dc5a854ab249ac35c39cb76fb3c
+    layerID: 125
+    mosaicPosition: {x: 4020, y: 12052}
+  - name: Blolb_Walk_left 1
+    spriteName: Blolb_Walk_left 1
+    isGroup: 0
+    parentIndex: 25
+    spriteID: f58e693f0233fe24e9dbe0090a506fee
+    layerID: 124
+    mosaicPosition: {x: 4020, y: 14060}
+  - name: "Explos\xE3o"
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+  - name: Glob_Explosion 23
+    spriteName: Glob_Explosion 23
+    isGroup: 0
+    parentIndex: 32
+    spriteID: cc2c673a9da408f42afeb5a5e83f6261
+    layerID: 198
+    mosaicPosition: {x: 6028, y: 4}
+  - name: Glob_Explosion 22
+    spriteName: Glob_Explosion 22
+    isGroup: 0
+    parentIndex: 32
+    spriteID: aa01829f73eaf454a92a50c5e7ad6141
+    layerID: 197
+    mosaicPosition: {x: 6028, y: 2012}
+  - name: Glob_Explosion 21
+    spriteName: Glob_Explosion 21
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 68625a45221a57d428750e9d05dddeca
+    layerID: 196
+    mosaicPosition: {x: 6028, y: 4020}
+  - name: Glob_Explosion 20
+    spriteName: Glob_Explosion 20
+    isGroup: 0
+    parentIndex: 32
+    spriteID: a152ba3417a51bc4f973bbfcc05cea2a
+    layerID: 195
+    mosaicPosition: {x: 6028, y: 6028}
+  - name: Glob_Explosion 19
+    spriteName: Glob_Explosion 19
+    isGroup: 0
+    parentIndex: 32
+    spriteID: f003b0a2ae3c82045822207961ae4c34
+    layerID: 131
+    mosaicPosition: {x: 6028, y: 8036}
+  - name: Glob_Explosion 18
+    spriteName: Glob_Explosion 18
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 2c530eb6d790add43827149c70bace0c
+    layerID: 130
+    mosaicPosition: {x: 6028, y: 10044}
+  - name: Glob_Explosion 17
+    spriteName: Glob_Explosion 17
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 05d0dd2049dbcd341952c8976de1e1a9
+    layerID: 37
+    mosaicPosition: {x: 6028, y: 12052}
+  - name: Glob_Explosion 16
+    spriteName: Glob_Explosion 16
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 119dfd5d0a60ba84a8b9b2a2a9ef6b12
+    layerID: 36
+    mosaicPosition: {x: 6028, y: 14060}
+  - name: Glob_Explosion 15
+    spriteName: Glob_Explosion 15
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 6e1b4907b4d49e740a494452f129f2ab
+    layerID: 34
+    mosaicPosition: {x: 8036, y: 4}
+  - name: Glob_Explosion 14
+    spriteName: Glob_Explosion 14
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 4273cd1bb15b6f64895ce9b06b7baf52
+    layerID: 35
+    mosaicPosition: {x: 8036, y: 2012}
+  - name: Glob_Explosion 13
+    spriteName: Glob_Explosion 13
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 0ba8b9ea806adc744af48a3b2ff1acfb
+    layerID: 32
+    mosaicPosition: {x: 8036, y: 4020}
+  - name: Glob_Explosion 12
+    spriteName: Glob_Explosion 12
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 2be0570a2236e554394a4daeffb50218
+    layerID: 31
+    mosaicPosition: {x: 8036, y: 6028}
+  - name: Glob_Explosion 11
+    spriteName: Glob_Explosion 11
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 511ec0268bdcf874e893135d45e35948
+    layerID: 30
+    mosaicPosition: {x: 8036, y: 8036}
+  - name: Glob_Explosion 10
+    spriteName: Glob_Explosion 10
+    isGroup: 0
+    parentIndex: 32
+    spriteID: cfe8a2500fdd1794fb744a1c54a0fcce
+    layerID: 29
+    mosaicPosition: {x: 8036, y: 10044}
+  - name: Glob_Explosion 9
+    spriteName: Glob_Explosion 9
+    isGroup: 0
+    parentIndex: 32
+    spriteID: c2aaaf593a9198646bb827dcca17bcfe
+    layerID: 28
+    mosaicPosition: {x: 8036, y: 12052}
+  - name: Glob_Explosion 8
+    spriteName: Glob_Explosion 8
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 1fe4f92172b097f4981a132c1ead0883
+    layerID: 26
+    mosaicPosition: {x: 8036, y: 14060}
+  - name: Glob_Explosion 7
+    spriteName: Glob_Explosion 7
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 481cbe4d27852b04d8e4facaf1aa69ab
+    layerID: 24
+    mosaicPosition: {x: 10044, y: 4}
+  - name: Glob_Explosion 6
+    spriteName: Glob_Explosion 6
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 343b7592f30abfe45b1bad9027b42dde
+    layerID: 27
+    mosaicPosition: {x: 10044, y: 2012}
+  - name: Glob_Explosion 5
+    spriteName: Glob_Explosion 5
+    isGroup: 0
+    parentIndex: 32
+    spriteID: ff73586ee3b15314ea59a64036111256
+    layerID: 20
+    mosaicPosition: {x: 10044, y: 4020}
+  - name: Glob_Explosion 4
+    spriteName: Glob_Explosion 4
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 851a723d0a9158a449840d64680a42be
+    layerID: 16
+    mosaicPosition: {x: 10044, y: 6028}
+  - name: Glob_Explosion 3
+    spriteName: Glob_Explosion 3
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 5c4d34a99d077d44183100b3b0229666
+    layerID: 13
+    mosaicPosition: {x: 10044, y: 8036}
+  - name: Glob_Explosion 2
+    spriteName: Glob_Explosion 2
+    isGroup: 0
+    parentIndex: 32
+    spriteID: aa9318f37b9fb9445b8e445f93a25ff6
+    layerID: 21
+    mosaicPosition: {x: 10044, y: 10044}
+  - name: Glob_Explosion 1
+    spriteName: Glob_Explosion 1
+    isGroup: 0
+    parentIndex: 32
+    spriteID: db1419069e0ce5e4f995f6ca71e95cf2
+    layerID: 22
+    mosaicPosition: {x: 10044, y: 12052}
+  - name: Plano de Fundo
+    spriteName: Plano de Fundo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5fb505d1ba9a1ce419ac9a2935c05adf
+    layerID: 1
+    mosaicPosition: {x: 10044, y: 14060}
+  sharedRigPSDLayers: []
+  generateGOHierarchy: 0
+  textureAssetName: "Blob movimenta\xE7\xE3o 2.0 1 Texture"
+  prefabAssetName: "Blob movimenta\xE7\xE3o 2.0 1 Prefab"
+  spriteLibAssetName: "Blob movimenta\xE7\xE3o 2.0 1 Sprite Lib"
+  skeletonAssetName: "Blob movimenta\xE7\xE3o 2.0 1 Skeleton"
+  secondarySpriteTextures: []

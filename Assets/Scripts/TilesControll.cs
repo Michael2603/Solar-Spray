@@ -36,7 +36,40 @@ public class TilesControll : MonoBehaviour
         }
     }
 
-    void OnTriggerStay2D(Collider2D collider)
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.layer != LayerMask.NameToLayer("Player"))
+        {
+            Paint(other);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        StopPainting(other);
+    }
+
+    public void StopPainting(Collider2D collider)
+    {
+        if (state == "Light" && collider.name.Contains("Glob"))
+        {
+            animator.speed = 1;
+        }
+        else
+        {
+            if (paintTimer > 0)
+                animator.Play("LightCube", -1, 0);
+            
+            animator.speed = 0;
+        }
+
+        ended = true;
+
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+            collider.gameObject.GetComponent<Enemy>().moveSpeed = collider.GetComponent<Enemy>().totalMoveSpeed;
+    }
+
+    public void Paint(Collider2D collider)
     {
         ended = false;
 
@@ -70,26 +103,6 @@ public class TilesControll : MonoBehaviour
         }
     } 
 
-    void OnTriggerExit2D(Collider2D collider)
-    {
-        if (state == "Light" && collider.name.Contains("Glob"))
-        {
-            animator.speed = 1;
-        }
-        else
-        {
-            if (paintTimer > 0)
-                animator.Play("LightCube", -1, 0);
-            
-            animator.speed = 0;
-        }
-
-        ended = true;
-
-        if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
-            collider.gameObject.GetComponent<Enemy>().moveSpeed = collider.GetComponent<Enemy>().totalMoveSpeed;
-    }
-
 
     public void FreezeAnimation()
     {
@@ -109,7 +122,7 @@ public class TilesControll : MonoBehaviour
         else
         {
             state = "Dark";
-            gameManager.tileCount++;
+            gameManager.tileCount--;
         }
 
         GetComponent<ParticleSystem>().Play();

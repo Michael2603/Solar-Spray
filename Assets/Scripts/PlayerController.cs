@@ -72,6 +72,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (Input.GetKey(KeyCode.Space) && other.gameObject.layer == LayerMask.NameToLayer("Tile"))
+        {
+            other.gameObject.GetComponent<TilesControll>().Paint(GetComponent<Collider2D>());
+            if(!GetComponent<AudioSource>().isPlaying)
+                GetComponent<AudioSource>().Play();
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space) && other.gameObject.layer == LayerMask.NameToLayer("Tile"))
+        {
+            other.gameObject.GetComponent<TilesControll>().StopPainting(GetComponent<Collider2D>());
+            GetComponent<AudioSource>().Stop();
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (solstice && other.collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))

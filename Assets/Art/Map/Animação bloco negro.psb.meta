@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -102,7 +102,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: dddd51aa8137c43459124b1753e6cbb5
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -124,7 +123,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 35a1dfa956ecc5449a1d5f604ff4a2b2
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +144,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 9d0b3aa0799fcef49a835680929ee1c9
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -168,7 +165,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 0c6f5d7d7d97d054c92c61298a198519
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +186,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: f3e269e9cfb06ae4aacd0acf50776d57
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +207,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: a3d5a7d2853c24c40a77ed1874897671
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -234,7 +228,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: cbdbe2eceef34124dae9e20be8f0e171
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -256,7 +249,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 62a77b3acc840e944858822dc61c6c27
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,7 +270,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 46373e7585a126e49a8b44d6ab4614c8
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,7 +291,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 59c2cc5fd5f52704696b0e14aa457cd8
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -323,7 +313,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: efb7a96cf0f7743449efbd0c280783bd
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -345,7 +334,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 522e57c6b126e504bbe756f138fd51a2
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -367,7 +355,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: b38b41ccc7e3a484e9fc21f373a603e6
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -389,7 +376,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: cbd8ed429a77e1249b5ec3d81c16fef7
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -411,7 +397,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 68d51f76f2ad39c4ea95ec126644389e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -433,7 +418,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: d2cc446a3b6288d4489d921a239bbe2d
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -455,7 +439,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 424ba27cdd4fbfb4a9920845cd116ad0
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -477,7 +460,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 373005573812e2241ace52697a458ae6
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -499,7 +481,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: c0cf81392de58d44db9ac7e590037bee
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -521,7 +502,6 @@ ScriptedImporter:
       width: 2380
       height: 2380
     spriteID: 4f0e12b3bf39329479f1d9ef5dc18650
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -583,16 +563,13 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 2048
-  documentSize: {x: 2380, y: 2380}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 8192
-  textureActualHeight: 16384
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers:
@@ -603,6 +580,9 @@ ScriptedImporter:
     spriteID: dddd51aa8137c43459124b1753e6cbb5
     layerID: 71
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco
     spriteName: Branco
     isGroup: 0
@@ -610,6 +590,9 @@ ScriptedImporter:
     spriteID: 35a1dfa956ecc5449a1d5f604ff4a2b2
     layerID: 70
     mosaicPosition: {x: 4, y: 2392}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco
     spriteName: Branco
     isGroup: 0
@@ -617,6 +600,9 @@ ScriptedImporter:
     spriteID: 9d0b3aa0799fcef49a835680929ee1c9
     layerID: 69
     mosaicPosition: {x: 4, y: 4780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco copiar 6
     spriteName: Branco copiar 6
     isGroup: 0
@@ -624,6 +610,9 @@ ScriptedImporter:
     spriteID: 0c6f5d7d7d97d054c92c61298a198519
     layerID: 81
     mosaicPosition: {x: 4, y: 7168}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco copiar 5
     spriteName: Branco copiar 5
     isGroup: 0
@@ -631,6 +620,9 @@ ScriptedImporter:
     spriteID: f3e269e9cfb06ae4aacd0acf50776d57
     layerID: 80
     mosaicPosition: {x: 4, y: 9556}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco copiar 4
     spriteName: Branco copiar 4
     isGroup: 0
@@ -638,6 +630,9 @@ ScriptedImporter:
     spriteID: a3d5a7d2853c24c40a77ed1874897671
     layerID: 79
     mosaicPosition: {x: 4, y: 11944}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco copiar 3
     spriteName: Branco copiar 3
     isGroup: 0
@@ -645,6 +640,9 @@ ScriptedImporter:
     spriteID: cbdbe2eceef34124dae9e20be8f0e171
     layerID: 78
     mosaicPosition: {x: 2392, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco copiar 2
     spriteName: Branco copiar 2
     isGroup: 0
@@ -652,6 +650,9 @@ ScriptedImporter:
     spriteID: 62a77b3acc840e944858822dc61c6c27
     layerID: 77
     mosaicPosition: {x: 2392, y: 2392}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco copiar
     spriteName: Branco copiar
     isGroup: 0
@@ -659,6 +660,9 @@ ScriptedImporter:
     spriteID: 46373e7585a126e49a8b44d6ab4614c8
     layerID: 76
     mosaicPosition: {x: 2392, y: 4780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Branco
     spriteName: Branco
     isGroup: 0
@@ -666,6 +670,19 @@ ScriptedImporter:
     spriteID: 59c2cc5fd5f52704696b0e14aa457cd8
     layerID: 21
     mosaicPosition: {x: 2392, y: 7168}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Plano de Fundo
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   rigPSDLayers:
   - name: Branco
     spriteName: Branco
@@ -674,6 +691,9 @@ ScriptedImporter:
     spriteID: efb7a96cf0f7743449efbd0c280783bd
     layerID: 71
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco
     spriteName: Branco
     isGroup: 0
@@ -681,6 +701,9 @@ ScriptedImporter:
     spriteID: 522e57c6b126e504bbe756f138fd51a2
     layerID: 70
     mosaicPosition: {x: 4, y: 2392}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco
     spriteName: Branco
     isGroup: 0
@@ -688,6 +711,9 @@ ScriptedImporter:
     spriteID: b38b41ccc7e3a484e9fc21f373a603e6
     layerID: 69
     mosaicPosition: {x: 4, y: 4780}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco copiar 6
     spriteName: Branco copiar 6
     isGroup: 0
@@ -695,6 +721,9 @@ ScriptedImporter:
     spriteID: cbd8ed429a77e1249b5ec3d81c16fef7
     layerID: 81
     mosaicPosition: {x: 4, y: 7168}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco copiar 5
     spriteName: Branco copiar 5
     isGroup: 0
@@ -702,6 +731,9 @@ ScriptedImporter:
     spriteID: 68d51f76f2ad39c4ea95ec126644389e
     layerID: 80
     mosaicPosition: {x: 4, y: 9556}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco copiar 4
     spriteName: Branco copiar 4
     isGroup: 0
@@ -709,6 +741,9 @@ ScriptedImporter:
     spriteID: d2cc446a3b6288d4489d921a239bbe2d
     layerID: 79
     mosaicPosition: {x: 4, y: 11944}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco copiar 3
     spriteName: Branco copiar 3
     isGroup: 0
@@ -716,6 +751,9 @@ ScriptedImporter:
     spriteID: 424ba27cdd4fbfb4a9920845cd116ad0
     layerID: 78
     mosaicPosition: {x: 2392, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco copiar 2
     spriteName: Branco copiar 2
     isGroup: 0
@@ -723,6 +761,9 @@ ScriptedImporter:
     spriteID: 373005573812e2241ace52697a458ae6
     layerID: 77
     mosaicPosition: {x: 2392, y: 2392}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco copiar
     spriteName: Branco copiar
     isGroup: 0
@@ -730,6 +771,9 @@ ScriptedImporter:
     spriteID: c0cf81392de58d44db9ac7e590037bee
     layerID: 76
     mosaicPosition: {x: 2392, y: 4780}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Branco
     spriteName: Branco
     isGroup: 0
@@ -737,7 +781,11 @@ ScriptedImporter:
     spriteID: 4f0e12b3bf39329479f1d9ef5dc18650
     layerID: 21
     mosaicPosition: {x: 2392, y: 7168}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: "Anima\xE7\xE3o bloco negro Texture"
   prefabAssetName: "Anima\xE7\xE3o bloco negro Prefab"

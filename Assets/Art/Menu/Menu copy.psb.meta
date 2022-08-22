@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -102,7 +102,6 @@ ScriptedImporter:
       width: 463
       height: 451
     spriteID: 7927373d690dd2f44b5eecdbff76db67
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -124,7 +123,6 @@ ScriptedImporter:
       width: 463
       height: 451
     spriteID: a52c6741dfe48a84b9d2699ffefefcd6
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +144,6 @@ ScriptedImporter:
       width: 485
       height: 484
     spriteID: f213a53678b928a429d1bfade58ae761
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -168,7 +165,6 @@ ScriptedImporter:
       width: 485
       height: 484
     spriteID: 5efd05c62b924544d8a7711b15126281
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,28 +174,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 473, y: 2760}
-  - name: Camada 11
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 1920
-      height: 1080
-    spriteID: 49746f96ce43f354c8fb0756755f7634
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
   - name: Quadrado branco
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -212,7 +186,6 @@ ScriptedImporter:
       width: 821
       height: 898
     spriteID: c2b772166339349489aae218ce433145
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -234,7 +207,6 @@ ScriptedImporter:
       width: 582
       height: 867
     spriteID: 574a9aa690beff746a44cb07efb1bf92
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -244,6 +216,48 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -229, y: 2118}
+  - name: Camada 11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 49746f96ce43f354c8fb0756755f7634
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Plano de Fundo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: bd7de3cafe4cdd84cbf2688d29a0fe2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1092}
   rigSpriteImportData:
   - name: Exit ON
     originalName: 
@@ -257,7 +271,6 @@ ScriptedImporter:
       width: 1366
       height: 867
     spriteID: 50d0ff40b5a7ea34d9a8e9f5585e3acb
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,7 +292,6 @@ ScriptedImporter:
       width: 1366
       height: 867
     spriteID: 830a5ba11a581f1499034de6b5576791
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,7 +313,6 @@ ScriptedImporter:
       width: 821
       height: 898
     spriteID: 1df8313b63c4ea44382ff99b1def60d2
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -323,7 +334,6 @@ ScriptedImporter:
       width: 821
       height: 898
     spriteID: 628d04984a01c2e4f8c335fc88360808
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -345,7 +355,6 @@ ScriptedImporter:
       width: 1920
       height: 1080
     spriteID: 76f56147d1ac3b847afe4e08de8756e6
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -367,7 +376,6 @@ ScriptedImporter:
       width: 1920
       height: 1080
     spriteID: 3864907b8e771954c907681fc23cc83d
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -429,16 +437,13 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 2048
-  documentSize: {x: 1920, y: 1080}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
-  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers:
@@ -449,6 +454,9 @@ ScriptedImporter:
     spriteID: 7927373d690dd2f44b5eecdbff76db67
     layerID: 19
     mosaicPosition: {x: 1320, y: 3055}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Exit
     spriteName: Exit
     isGroup: 0
@@ -456,6 +464,9 @@ ScriptedImporter:
     spriteID: a52c6741dfe48a84b9d2699ffefefcd6
     layerID: 16
     mosaicPosition: {x: 833, y: 3542}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Start ON
     spriteName: Start ON
     isGroup: 0
@@ -463,6 +474,9 @@ ScriptedImporter:
     spriteID: f213a53678b928a429d1bfade58ae761
     layerID: 18
     mosaicPosition: {x: 1378, y: 2180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Start
     spriteName: Start
     isGroup: 0
@@ -470,6 +484,9 @@ ScriptedImporter:
     spriteID: 5efd05c62b924544d8a7711b15126281
     layerID: 15
     mosaicPosition: {x: 833, y: 3055}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Quadrado branco
     spriteName: Quadrado branco
     isGroup: 0
@@ -477,6 +494,9 @@ ScriptedImporter:
     spriteID: c2b772166339349489aae218ce433145
     layerID: 9
     mosaicPosition: {x: 4, y: 3055}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Quadrado preto
     spriteName: Quadrado preto
     isGroup: 0
@@ -484,6 +504,9 @@ ScriptedImporter:
     spriteID: 574a9aa690beff746a44cb07efb1bf92
     layerID: 7
     mosaicPosition: {x: 4, y: 2180}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 11
     spriteName: Camada 11
     isGroup: 0
@@ -491,6 +514,9 @@ ScriptedImporter:
     spriteID: 49746f96ce43f354c8fb0756755f7634
     layerID: 5
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Plano de Fundo
     spriteName: Plano de Fundo
     isGroup: 0
@@ -498,6 +524,9 @@ ScriptedImporter:
     spriteID: bd7de3cafe4cdd84cbf2688d29a0fe2a
     layerID: 1
     mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   rigPSDLayers:
   - name: Exit ON
     spriteName: Exit ON
@@ -506,6 +535,9 @@ ScriptedImporter:
     spriteID: 50d0ff40b5a7ea34d9a8e9f5585e3acb
     layerID: 19
     mosaicPosition: {x: 4, y: 2180}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Exit
     spriteName: Exit
     isGroup: 0
@@ -513,6 +545,9 @@ ScriptedImporter:
     spriteID: 830a5ba11a581f1499034de6b5576791
     layerID: 16
     mosaicPosition: {x: 4, y: 3055}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Start ON
     spriteName: Start ON
     isGroup: 0
@@ -520,6 +555,9 @@ ScriptedImporter:
     spriteID: 1df8313b63c4ea44382ff99b1def60d2
     layerID: 18
     mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Start
     spriteName: Start
     isGroup: 0
@@ -527,6 +565,9 @@ ScriptedImporter:
     spriteID: 628d04984a01c2e4f8c335fc88360808
     layerID: 15
     mosaicPosition: {x: 1932, y: 910}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 11
     spriteName: Camada 11
     isGroup: 0
@@ -534,6 +575,9 @@ ScriptedImporter:
     spriteID: 76f56147d1ac3b847afe4e08de8756e6
     layerID: 5
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Plano de Fundo
     spriteName: Plano de Fundo
     isGroup: 0
@@ -541,7 +585,11 @@ ScriptedImporter:
     spriteID: 3864907b8e771954c907681fc23cc83d
     layerID: 1
     mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Menu copy Texture
   prefabAssetName: Menu copy Prefab

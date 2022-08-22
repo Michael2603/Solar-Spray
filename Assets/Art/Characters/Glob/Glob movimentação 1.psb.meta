@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -102,7 +102,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: ab09ceb20ea2a534baf8a47b6cf8cc0a
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -124,7 +123,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 52deaeafdda413a458f8cb7d21ccc891
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +144,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 6eadbb370ad12b94a84373297cb5838a
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -168,7 +165,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 4a625337c65af014fa121eaa000c59eb
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +186,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: c3d21755f840bcf4390dc9d3309061c4
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +207,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: a3f66dd31acccf54bae873e48780ee2a
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -234,7 +228,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: b1777bc0bf93c6041b00fd560f7695b3
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -256,7 +249,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 72a6175ea03e77b41b65b92511b34046
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,7 +270,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: acb00c1af2263634199a9c34c2c59b52
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,7 +291,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 88e87fa525a648c41869db31153eccf1
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,7 +312,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 4a45b66e89fd1d34e99fad1b587b6c0d
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -344,7 +333,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 84ce53ea07e03f849a095e08b49056d3
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -366,7 +354,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 8187e5d387876e541aeb0d1f8f58cefb
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -388,7 +375,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 25372499e3b6e76469ac6dd5a8d9f800
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -410,7 +396,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 9251470ff85d37a4c876325251cce9ec
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -432,7 +417,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: e475cbb60de5a7d4c96174674cf28fe5
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -454,7 +438,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 7c8dfa73faadafa40a98c1a50d6fa00c
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -476,7 +459,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 9b5dee3b8db7fe44cafe13b1253ebe77
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -498,7 +480,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: c0253cbb8eeb72542b9dde6f56e2d001
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -520,7 +501,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: db53bea658e2f2643943fc91ae315743
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -543,7 +523,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: d0472f8619eb63840991eb58a69a57da
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -565,7 +544,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 9325e03595a9c0c4aaad36c28e28c20e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -587,7 +565,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 6d27fe88dceaf32459485c0488bb579e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -609,7 +586,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 2a9c01811f169504f995af4ffde10a23
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -631,7 +607,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 491c785aa7ce50345bc61b28ffaa1978
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -653,7 +628,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: 6bc0bd86d4abba045b99d48ca17bed1c
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -715,16 +689,13 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 2048
-  documentSize: {x: 2000, y: 2000}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 8192
-  textureActualHeight: 16384
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers:
@@ -732,9 +703,12 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 55658a0c08cc3d945823c86c86975c1f
     layerID: 28
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Glob_Walk_back5
     spriteName: Glob_Walk_back5
     isGroup: 0
@@ -742,6 +716,9 @@ ScriptedImporter:
     spriteID: ab09ceb20ea2a534baf8a47b6cf8cc0a
     layerID: 38
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_back4
     spriteName: Glob_Walk_back4
     isGroup: 0
@@ -749,6 +726,9 @@ ScriptedImporter:
     spriteID: 52deaeafdda413a458f8cb7d21ccc891
     layerID: 37
     mosaicPosition: {x: 4, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_back3
     spriteName: Glob_Walk_back3
     isGroup: 0
@@ -756,6 +736,9 @@ ScriptedImporter:
     spriteID: 6eadbb370ad12b94a84373297cb5838a
     layerID: 36
     mosaicPosition: {x: 4, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_back2
     spriteName: Glob_Walk_back2
     isGroup: 0
@@ -763,6 +746,9 @@ ScriptedImporter:
     spriteID: 4a625337c65af014fa121eaa000c59eb
     layerID: 35
     mosaicPosition: {x: 4, y: 6028}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_back1
     spriteName: Glob_Walk_back1
     isGroup: 0
@@ -770,13 +756,19 @@ ScriptedImporter:
     spriteID: c3d21755f840bcf4390dc9d3309061c4
     layerID: 23
     mosaicPosition: {x: 4, y: 8036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Andando de frente
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: fbe68c3a5d2268a4995db735191d1c48
     layerID: 16
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Glob_Walk_front5
     spriteName: Glob_Walk_front5
     isGroup: 0
@@ -784,6 +776,9 @@ ScriptedImporter:
     spriteID: a3f66dd31acccf54bae873e48780ee2a
     layerID: 21
     mosaicPosition: {x: 4, y: 10044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_front4
     spriteName: Glob_Walk_front4
     isGroup: 0
@@ -791,6 +786,9 @@ ScriptedImporter:
     spriteID: b1777bc0bf93c6041b00fd560f7695b3
     layerID: 20
     mosaicPosition: {x: 4, y: 12052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_front3
     spriteName: Glob_Walk_front3
     isGroup: 0
@@ -798,6 +796,9 @@ ScriptedImporter:
     spriteID: 72a6175ea03e77b41b65b92511b34046
     layerID: 19
     mosaicPosition: {x: 4, y: 14060}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_front2
     spriteName: Glob_Walk_front2
     isGroup: 0
@@ -805,6 +806,9 @@ ScriptedImporter:
     spriteID: acb00c1af2263634199a9c34c2c59b52
     layerID: 18
     mosaicPosition: {x: 2012, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_front1
     spriteName: Glob_Walk_front1
     isGroup: 0
@@ -812,13 +816,19 @@ ScriptedImporter:
     spriteID: 88e87fa525a648c41869db31153eccf1
     layerID: 11
     mosaicPosition: {x: 2012, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: direita
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 1e64ade3a28d81a409b33e77f1a24f9d
     layerID: 77
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Glob_Walk_Right5
     spriteName: Glob_Walk_Right5
     isGroup: 0
@@ -826,6 +836,9 @@ ScriptedImporter:
     spriteID: 4a45b66e89fd1d34e99fad1b587b6c0d
     layerID: 76
     mosaicPosition: {x: 2012, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_Right4
     spriteName: Glob_Walk_Right4
     isGroup: 0
@@ -833,6 +846,9 @@ ScriptedImporter:
     spriteID: 84ce53ea07e03f849a095e08b49056d3
     layerID: 75
     mosaicPosition: {x: 2012, y: 6028}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_Right3
     spriteName: Glob_Walk_Right3
     isGroup: 0
@@ -840,6 +856,9 @@ ScriptedImporter:
     spriteID: 8187e5d387876e541aeb0d1f8f58cefb
     layerID: 74
     mosaicPosition: {x: 2012, y: 8036}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_Right2
     spriteName: Glob_Walk_Right2
     isGroup: 0
@@ -847,6 +866,9 @@ ScriptedImporter:
     spriteID: 25372499e3b6e76469ac6dd5a8d9f800
     layerID: 73
     mosaicPosition: {x: 2012, y: 10044}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_Right1
     spriteName: Glob_Walk_Right1
     isGroup: 0
@@ -854,13 +876,19 @@ ScriptedImporter:
     spriteID: 9251470ff85d37a4c876325251cce9ec
     layerID: 72
     mosaicPosition: {x: 2012, y: 12052}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: esquerda
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: dc1bfe252586e8146ab86c2bae3d2760
     layerID: 8
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Glob_Walk_left5
     spriteName: Glob_Walk_left5
     isGroup: 0
@@ -868,6 +896,9 @@ ScriptedImporter:
     spriteID: e475cbb60de5a7d4c96174674cf28fe5
     layerID: 7
     mosaicPosition: {x: 2012, y: 14060}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_left4
     spriteName: Glob_Walk_left4
     isGroup: 0
@@ -875,6 +906,9 @@ ScriptedImporter:
     spriteID: 7c8dfa73faadafa40a98c1a50d6fa00c
     layerID: 6
     mosaicPosition: {x: 4020, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_left3
     spriteName: Glob_Walk_left3
     isGroup: 0
@@ -882,6 +916,9 @@ ScriptedImporter:
     spriteID: 9b5dee3b8db7fe44cafe13b1253ebe77
     layerID: 5
     mosaicPosition: {x: 4020, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_left2
     spriteName: Glob_Walk_left2
     isGroup: 0
@@ -889,6 +926,9 @@ ScriptedImporter:
     spriteID: c0253cbb8eeb72542b9dde6f56e2d001
     layerID: 4
     mosaicPosition: {x: 4020, y: 4020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Glob_Walk_left1
     spriteName: Glob_Walk_left1
     isGroup: 0
@@ -896,6 +936,9 @@ ScriptedImporter:
     spriteID: db53bea658e2f2643943fc91ae315743
     layerID: 2
     mosaicPosition: {x: 4020, y: 6028}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   rigPSDLayers:
   - name: Andando de frente copiar
     spriteName: 
@@ -904,6 +947,9 @@ ScriptedImporter:
     spriteID: 
     layerID: 28
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Glob_Walk_back5
     spriteName: Glob_Walk_back5
     isGroup: 0
@@ -911,6 +957,9 @@ ScriptedImporter:
     spriteID: d0472f8619eb63840991eb58a69a57da
     layerID: 38
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Glob_Walk_back4
     spriteName: Glob_Walk_back4
     isGroup: 0
@@ -918,6 +967,9 @@ ScriptedImporter:
     spriteID: 9325e03595a9c0c4aaad36c28e28c20e
     layerID: 37
     mosaicPosition: {x: 4, y: 2012}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Glob_Walk_back3
     spriteName: Glob_Walk_back3
     isGroup: 0
@@ -925,6 +977,9 @@ ScriptedImporter:
     spriteID: 6d27fe88dceaf32459485c0488bb579e
     layerID: 36
     mosaicPosition: {x: 4, y: 4020}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Glob_Walk_back2
     spriteName: Glob_Walk_back2
     isGroup: 0
@@ -932,6 +987,9 @@ ScriptedImporter:
     spriteID: 2a9c01811f169504f995af4ffde10a23
     layerID: 35
     mosaicPosition: {x: 4, y: 6028}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Glob_Walk_back1
     spriteName: Glob_Walk_back1
     isGroup: 0
@@ -939,6 +997,9 @@ ScriptedImporter:
     spriteID: 491c785aa7ce50345bc61b28ffaa1978
     layerID: 23
     mosaicPosition: {x: 2012, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Plano de Fundo copiar
     spriteName: Plano de Fundo copiar
     isGroup: 0
@@ -946,7 +1007,11 @@ ScriptedImporter:
     spriteID: 6bc0bd86d4abba045b99d48ca17bed1c
     layerID: 40
     mosaicPosition: {x: 2012, y: 2012}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: "Glob movimenta\xE7\xE3o 1 Texture"
   prefabAssetName: "Glob movimenta\xE7\xE3o 1 Prefab"

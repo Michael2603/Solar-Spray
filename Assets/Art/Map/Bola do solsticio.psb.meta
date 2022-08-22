@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -102,7 +102,6 @@ ScriptedImporter:
       width: 172
       height: 418
     spriteID: 6b5d8c86e70884640a359489d59f7294
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -124,7 +123,6 @@ ScriptedImporter:
       width: 173
       height: 492
     spriteID: 6537007a9a1fcd34b8d7629ff2e790f5
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +144,6 @@ ScriptedImporter:
       width: 979
       height: 1689
     spriteID: bbb40b0457abd97449f718b9c4ce783b
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -168,7 +165,6 @@ ScriptedImporter:
       width: 979
       height: 1689
     spriteID: 75f0dd8c637500349b297b66010637be
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +186,6 @@ ScriptedImporter:
       width: 979
       height: 1689
     spriteID: 643cbb53bc6b6ab4d82dbe1f9a0ad128
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +207,6 @@ ScriptedImporter:
       width: 979
       height: 1695
     spriteID: f106fddc28067be489a68cd15a2f77b5
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -234,7 +228,6 @@ ScriptedImporter:
       width: 979
       height: 1692
     spriteID: 8bb7d6eaa94c9bf418dc51fb91fc9520
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -256,7 +249,6 @@ ScriptedImporter:
       width: 979
       height: 1690
     spriteID: d1038a884a5978f4a8a2877e86bf95f7
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,7 +270,6 @@ ScriptedImporter:
       width: 980
       height: 1690
     spriteID: b11beb9b8f1160045b70332f20278419
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,7 +291,6 @@ ScriptedImporter:
       width: 980
       height: 1702
     spriteID: 78d6edc257ba8fc4d8f095810bf805cd
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -322,7 +312,6 @@ ScriptedImporter:
       width: 979
       height: 1713
     spriteID: 130576189745f1b4d871763803b6b9d6
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -332,6 +321,27 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -479, y: 1985}
+  - name: Plano de Fundo copiar
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 2000
+      height: 2000
+    spriteID: 90f7bf04aae51344e8c4f08b8d4a9b6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
   rigSpriteImportData:
   - name: Camada 11
     originalName: 
@@ -345,7 +355,6 @@ ScriptedImporter:
       width: 172
       height: 418
     spriteID: b23f56dc509d7924aaf752553d6e7c62
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -367,7 +376,6 @@ ScriptedImporter:
       width: 173
       height: 492
     spriteID: c1da8413fc3d2dd479fb68b0a2879bed
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -389,7 +397,6 @@ ScriptedImporter:
       width: 979
       height: 1689
     spriteID: 904c1b923dffc5540a82269273f84322
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -411,7 +418,6 @@ ScriptedImporter:
       width: 979
       height: 1689
     spriteID: 17f16e9b051c5694ab26ddcbc517c470
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -433,7 +439,6 @@ ScriptedImporter:
       width: 979
       height: 1689
     spriteID: 15cca3f35eca7934dbbfc9b42d7d9109
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -455,7 +460,6 @@ ScriptedImporter:
       width: 979
       height: 1695
     spriteID: fc91620629e78d64dbae9128cb637e12
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -477,7 +481,6 @@ ScriptedImporter:
       width: 979
       height: 1692
     spriteID: 8a4e31e15c26d3c4ca7ae5a164e63b4e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -499,7 +502,6 @@ ScriptedImporter:
       width: 979
       height: 1690
     spriteID: 0d7ebeec957e8a744951633faf1d0ec2
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -521,7 +523,6 @@ ScriptedImporter:
       width: 980
       height: 1690
     spriteID: 2eedb5ddf74913d4896e29f9209b9556
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -543,7 +544,6 @@ ScriptedImporter:
       width: 980
       height: 1702
     spriteID: dc97dbc7d20fe9c49be183ceed210ccc
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -565,7 +565,6 @@ ScriptedImporter:
       width: 979
       height: 1713
     spriteID: dae46b3e729aea74ca300600e004bc88
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -587,7 +586,6 @@ ScriptedImporter:
       width: 2000
       height: 2000
     spriteID: d91bd0d99ef962048aab7ccb46f9ce2d
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -649,16 +647,13 @@ ScriptedImporter:
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 2048
-  documentSize: {x: 2000, y: 2000}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 1
   skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
-  textureActualHeight: 8192
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers:
@@ -666,9 +661,12 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 9a348f656478d244f809c5737874dc02
     layerID: 16
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: Camada 11
     spriteName: Camada 11
     isGroup: 0
@@ -676,6 +674,9 @@ ScriptedImporter:
     spriteID: 6b5d8c86e70884640a359489d59f7294
     layerID: 75
     mosaicPosition: {x: 4, y: 7636}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 10
     spriteName: Camada 10
     isGroup: 0
@@ -683,6 +684,9 @@ ScriptedImporter:
     spriteID: 6537007a9a1fcd34b8d7629ff2e790f5
     layerID: 73
     mosaicPosition: {x: 4, y: 7136}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 9
     spriteName: Camada 9
     isGroup: 0
@@ -690,6 +694,9 @@ ScriptedImporter:
     spriteID: bbb40b0457abd97449f718b9c4ce783b
     layerID: 72
     mosaicPosition: {x: 2012, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 8
     spriteName: Camada 8
     isGroup: 0
@@ -697,6 +704,9 @@ ScriptedImporter:
     spriteID: 75f0dd8c637500349b297b66010637be
     layerID: 71
     mosaicPosition: {x: 2012, y: 1701}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 7
     spriteName: Camada 7
     isGroup: 0
@@ -704,6 +714,9 @@ ScriptedImporter:
     spriteID: 643cbb53bc6b6ab4d82dbe1f9a0ad128
     layerID: 70
     mosaicPosition: {x: 2012, y: 3398}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 6
     spriteName: Camada 6
     isGroup: 0
@@ -711,6 +724,9 @@ ScriptedImporter:
     spriteID: f106fddc28067be489a68cd15a2f77b5
     layerID: 69
     mosaicPosition: {x: 4, y: 3733}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 5
     spriteName: Camada 5
     isGroup: 0
@@ -718,6 +734,9 @@ ScriptedImporter:
     spriteID: 8bb7d6eaa94c9bf418dc51fb91fc9520
     layerID: 68
     mosaicPosition: {x: 4, y: 5436}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 4
     spriteName: Camada 4
     isGroup: 0
@@ -725,6 +744,9 @@ ScriptedImporter:
     spriteID: d1038a884a5978f4a8a2877e86bf95f7
     layerID: 67
     mosaicPosition: {x: 991, y: 5420}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 3
     spriteName: Camada 3
     isGroup: 0
@@ -732,6 +754,9 @@ ScriptedImporter:
     spriteID: b11beb9b8f1160045b70332f20278419
     layerID: 66
     mosaicPosition: {x: 991, y: 3722}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 2
     spriteName: Camada 2
     isGroup: 0
@@ -739,6 +764,9 @@ ScriptedImporter:
     spriteID: 78d6edc257ba8fc4d8f095810bf805cd
     layerID: 64
     mosaicPosition: {x: 991, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Camada 1
     spriteName: Camada 1
     isGroup: 0
@@ -746,6 +774,9 @@ ScriptedImporter:
     spriteID: 130576189745f1b4d871763803b6b9d6
     layerID: 63
     mosaicPosition: {x: 4, y: 2012}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Plano de Fundo copiar
     spriteName: Plano de Fundo copiar
     isGroup: 0
@@ -753,6 +784,9 @@ ScriptedImporter:
     spriteID: 90f7bf04aae51344e8c4f08b8d4a9b6c
     layerID: 19
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   rigPSDLayers:
   - name: Bola do solsticio
     spriteName: 
@@ -761,6 +795,9 @@ ScriptedImporter:
     spriteID: 
     layerID: 16
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 11
     spriteName: Camada 11
     isGroup: 0
@@ -768,6 +805,9 @@ ScriptedImporter:
     spriteID: b23f56dc509d7924aaf752553d6e7c62
     layerID: 75
     mosaicPosition: {x: 4, y: 7636}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 10
     spriteName: Camada 10
     isGroup: 0
@@ -775,6 +815,9 @@ ScriptedImporter:
     spriteID: c1da8413fc3d2dd479fb68b0a2879bed
     layerID: 73
     mosaicPosition: {x: 4, y: 7136}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 9
     spriteName: Camada 9
     isGroup: 0
@@ -782,6 +825,9 @@ ScriptedImporter:
     spriteID: 904c1b923dffc5540a82269273f84322
     layerID: 72
     mosaicPosition: {x: 2012, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 8
     spriteName: Camada 8
     isGroup: 0
@@ -789,6 +835,9 @@ ScriptedImporter:
     spriteID: 17f16e9b051c5694ab26ddcbc517c470
     layerID: 71
     mosaicPosition: {x: 2012, y: 1701}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 7
     spriteName: Camada 7
     isGroup: 0
@@ -796,6 +845,9 @@ ScriptedImporter:
     spriteID: 15cca3f35eca7934dbbfc9b42d7d9109
     layerID: 70
     mosaicPosition: {x: 2012, y: 3398}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 6
     spriteName: Camada 6
     isGroup: 0
@@ -803,6 +855,9 @@ ScriptedImporter:
     spriteID: fc91620629e78d64dbae9128cb637e12
     layerID: 69
     mosaicPosition: {x: 4, y: 3733}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 5
     spriteName: Camada 5
     isGroup: 0
@@ -810,6 +865,9 @@ ScriptedImporter:
     spriteID: 8a4e31e15c26d3c4ca7ae5a164e63b4e
     layerID: 68
     mosaicPosition: {x: 4, y: 5436}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 4
     spriteName: Camada 4
     isGroup: 0
@@ -817,6 +875,9 @@ ScriptedImporter:
     spriteID: 0d7ebeec957e8a744951633faf1d0ec2
     layerID: 67
     mosaicPosition: {x: 991, y: 5420}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 3
     spriteName: Camada 3
     isGroup: 0
@@ -824,6 +885,9 @@ ScriptedImporter:
     spriteID: 2eedb5ddf74913d4896e29f9209b9556
     layerID: 66
     mosaicPosition: {x: 991, y: 3722}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 2
     spriteName: Camada 2
     isGroup: 0
@@ -831,6 +895,9 @@ ScriptedImporter:
     spriteID: dc97dbc7d20fe9c49be183ceed210ccc
     layerID: 64
     mosaicPosition: {x: 991, y: 2012}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Camada 1
     spriteName: Camada 1
     isGroup: 0
@@ -838,6 +905,9 @@ ScriptedImporter:
     spriteID: dae46b3e729aea74ca300600e004bc88
     layerID: 63
     mosaicPosition: {x: 4, y: 2012}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Plano de Fundo copiar
     spriteName: Plano de Fundo copiar
     isGroup: 0
@@ -845,7 +915,11 @@ ScriptedImporter:
     spriteID: d91bd0d99ef962048aab7ccb46f9ce2d
     layerID: 19
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Bola do solsticio Texture
   prefabAssetName: Bola do solsticio Prefab

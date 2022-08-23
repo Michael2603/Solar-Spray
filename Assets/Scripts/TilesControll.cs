@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class TilesControll : MonoBehaviour
 {
@@ -32,7 +33,13 @@ public class TilesControll : MonoBehaviour
             paintTimer = collider.gameObject.GetComponent<PlayerController>().paintSpeed;
         else if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy") && !ended)
         {
-            paintTimer = collider.gameObject.GetComponent<Enemy>().paintSpeed;
+            try
+            {
+                paintTimer = collider.gameObject.GetComponent<Enemy>().paintSpeed;
+            }
+            catch(Exception e)
+            {
+            }
         }
     }
 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Cinemachine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -46,6 +47,17 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 0);
         }
 
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            StopAllCoroutines();
+            StartCoroutine(OpenCameraView());
+        }
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            StopAllCoroutines();
+            StartCoroutine(CloseCameraView());
+        }
+
         HealthControll();
     }
 
@@ -69,7 +81,7 @@ public class PlayerController : MonoBehaviour
                 solstice = false;
                 timerCounter = solsticeTimer;
             }
-        }
+        }        
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -119,6 +131,32 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.GameOver();
         }
+    }
+
+    IEnumerator OpenCameraView()
+    {
+        CinemachineVirtualCamera camera = GameObject.Find("CM vcam").GetComponent<CinemachineVirtualCamera>();
+
+        while(camera.m_Lens.OrthographicSize < 5)
+        {
+            camera.m_Lens.OrthographicSize = Mathf.Lerp(camera.m_Lens.OrthographicSize, 5, .1f);
+            yield return null;
+        }
+
+        camera.m_Lens.OrthographicSize = 5;
+    }
+
+    IEnumerator CloseCameraView()
+    {
+        CinemachineVirtualCamera camera = GameObject.Find("CM vcam").GetComponent<CinemachineVirtualCamera>();
+
+        while(camera.m_Lens.OrthographicSize > 2.5f)
+        {
+            camera.m_Lens.OrthographicSize = Mathf.Lerp(camera.m_Lens.OrthographicSize, 2.5f, .2f);
+            yield return null;
+        }
+
+        camera.m_Lens.OrthographicSize = 2.5f;
     }
 
     public void Hit()

@@ -2635,7 +2635,7 @@ GameObject:
   - component: {fileID: 531150685}
   - component: {fileID: 531150684}
   - component: {fileID: 531150683}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WorldColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9932,6 +9932,7 @@ MonoBehaviour:
   - {fileID: 1383358261}
   damagedImage: {fileID: 4291616929924301121, guid: 5be3901e63cfb974dadf61345da97800, type: 3}
   fineImage: {fileID: 5578507134881799651, guid: 5be3901e63cfb974dadf61345da97800, type: 3}
+  lightSphere: {fileID: 8600407127556534134, guid: 324705d83590cd04b8bb88718216037f, type: 3}
 --- !u!95 &2046932648
 Animator:
   serializedVersion: 4
@@ -10505,11 +10506,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 17571598663486874, guid: 0b447193c2546de4ca5e40ca640b1a19, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3691375
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 17571598663486874, guid: 0b447193c2546de4ca5e40ca640b1a19, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.35134983
+      value: 0.77
       objectReference: {fileID: 0}
     - target: {fileID: 17571598663486874, guid: 0b447193c2546de4ca5e40ca640b1a19, type: 3}
       propertyPath: m_LocalPosition.z

@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     public Sprite damagedImage;
     public Sprite fineImage;
 
+    public GameObject lightSphere;
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -45,6 +47,11 @@ public class PlayerController : MonoBehaviour
         else if (rigidbody2d.velocity.x < 0)
         {
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 0);
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Instantiate(lightSphere, this.transform.localPosition, this.transform.rotation);
         }
 
         if (Input.GetKeyDown(KeyCode.Tab))

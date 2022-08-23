@@ -13,6 +13,8 @@ public class TilesControll : MonoBehaviour
     public string state = "Dark";
     float enemySpeed;
 
+    public bool lightSphereHit = false;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -31,6 +33,12 @@ public class TilesControll : MonoBehaviour
     {
         if (collider.gameObject.layer == LayerMask.NameToLayer("Player") && !ended)
             paintTimer = collider.gameObject.GetComponent<PlayerController>().paintSpeed;
+        else if (collider.gameObject.layer == LayerMask.NameToLayer("LightSphere") && !ended)
+        {
+            print("Piinta");
+            paintTimer = 1;
+            lightSphereHit = true;
+        }
         else if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy") && !ended)
         {
             try
@@ -38,8 +46,7 @@ public class TilesControll : MonoBehaviour
                 paintTimer = collider.gameObject.GetComponent<Enemy>().paintSpeed;
             }
             catch(Exception e)
-            {
-            }
+            {}
         }
     }
 
@@ -58,7 +65,7 @@ public class TilesControll : MonoBehaviour
 
     public void StopPainting(Collider2D collider)
     {
-        if (state == "Light" && collider.name.Contains("Glob"))
+        if ((state == "Light" && collider.name.Contains("Glob")) || (collider.gameObject.layer == LayerMask.NameToLayer("LightSphere") && state == "Dark"))
         {
             animator.speed = 1;
         }
@@ -95,6 +102,10 @@ public class TilesControll : MonoBehaviour
             {
                 collider.GetComponent<Enemy>().moveSpeed = collider.GetComponent<Enemy>().totalMoveSpeed;
             }
+            if (collider.gameObject.layer == LayerMask.NameToLayer("LightSphere"))
+            {
+                animator.speed = 1;
+            }
         }
         else if (state == "Light")
         {
@@ -113,12 +124,14 @@ public class TilesControll : MonoBehaviour
 
     public void FreezeAnimation()
     {
-        animator.speed = 0;
+        if (!lightSphereHit)
+            animator.speed = 0;
     }
 
     public void EndedAnimation()
     {
         ended = true;
+        lightSphereHit = false;
         animator.speed = 0;
         animator.SetBool("Dark", !animator.GetBool("Dark"));
         if (state == "Dark")

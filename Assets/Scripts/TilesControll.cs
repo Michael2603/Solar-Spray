@@ -35,7 +35,6 @@ public class TilesControll : MonoBehaviour
             paintTimer = collider.gameObject.GetComponent<PlayerController>().paintSpeed;
         else if (collider.gameObject.layer == LayerMask.NameToLayer("LightSphere") && !ended)
         {
-            print("Piinta");
             paintTimer = 1;
             lightSphereHit = true;
         }
@@ -143,6 +142,7 @@ public class TilesControll : MonoBehaviour
         {
             state = "Dark";
             gameManager.tileCount--;
+            gameManager.darkTileAmount++;
         }
 
         GetComponent<ParticleSystem>().Play();

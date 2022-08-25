@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Cinemachine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class PlayerController : MonoBehaviour
     public Sprite fineImage;
 
     public GameObject lightSphere;
+    public GameObject lightSphereIcon;
+    public bool canShoot = false;
 
     void Start()
     {
@@ -49,9 +52,22 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && canShoot)
         {
-            Instantiate(lightSphere, this.transform.localPosition, this.transform.rotation);
+            // Check for the direction the player was facing to shoot.
+            Vector2 shotDirection = new Vector2(0,0);
+
+            if (rigidbody2d.velocity.x != 0)
+                shotDirection = new Vector2(Mathf.Sign(rigidbody2d.velocity.x), shotDirection.y);
+            if (rigidbody2d.velocity.y != 0)
+                shotDirection = new Vector2(shotDirection.x, Mathf.Sign(rigidbody2d.velocity.y));
+
+            GameObject tempSphere;
+            tempSphere = Instantiate(lightSphere, new Vector3(this.transform.localPosition.x + shotDirection.x / 2, this.transform.localPosition.y + shotDirection.y / 2, 0), this.transform.rotation);
+
+            tempSphere.GetComponent<Rigidbody2D>().AddForce(shotDirection * 200);
+
+            canShoot = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -66,6 +82,7 @@ public class PlayerController : MonoBehaviour
         }
 
         HealthControll();
+        LightSphereControll();
     }
 
     void FixedUpdate()
@@ -138,6 +155,16 @@ public class PlayerController : MonoBehaviour
         {
             gameManager.GameOver();
         }
+    }
+
+    void LightSphereControll()
+    {
+        if (canShoot)
+        {
+            lightSphereIcon.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+        }
+        else
+            lightSphereIcon.GetComponent<Image>().color = new Color32(96, 44, 168, 255);
     }
 
     IEnumerator OpenCameraView()

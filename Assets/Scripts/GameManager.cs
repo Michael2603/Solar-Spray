@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject tileMap;
     public List<TilesControll> tiles = new List<TilesControll>();
 
+    public GameObject player;
     public GameObject enemiesManager;
     public GameObject blobPrefab;
     public GameObject globPrefab;
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameVictoryPanel;
 
     public int tileCount;
+    public int darkTileAmount;
 
     void Start()
     {
@@ -128,6 +130,12 @@ public class GameManager : MonoBehaviour
                     localCounter2++;
                 }
             }
+        }
+
+        if (darkTileAmount >= 10)
+        {
+            player.GetComponent<PlayerController>().canShoot = true;
+            darkTileAmount = 0;
         }
 
         if (tileCount == tiles.Count)

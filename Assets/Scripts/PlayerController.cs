@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
 
             canShoot = false;
         }
-
+        
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             StopAllCoroutines();

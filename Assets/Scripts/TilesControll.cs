@@ -133,18 +133,26 @@ public class TilesControll : MonoBehaviour
         lightSphereHit = false;
         animator.speed = 0;
         animator.SetBool("Dark", !animator.GetBool("Dark"));
+
+        GameObject lightParticles = this.transform.GetChild(0).gameObject;
+        GameObject darkParticles = this.transform.GetChild(1).gameObject;
+
         if (state == "Dark")
         {
             state = "Light";
             gameManager.tileCount++;
+
+            lightParticles.SetActive(true);
+            lightParticles.GetComponent<ParticleSystem>().Play();
         }
         else
         {
             state = "Dark";
             gameManager.tileCount--;
-            gameManager.darkTileAmount++;
+            gameManager.PaintedDark();
+            
+            darkParticles.SetActive(true);
+            darkParticles.GetComponent<ParticleSystem>().Play();
         }
-
-        GetComponent<ParticleSystem>().Play();
     }
 }

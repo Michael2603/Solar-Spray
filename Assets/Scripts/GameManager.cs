@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     public int tileCount;
     public int darkTileAmount;
+    public GameObject lightSphereIcon;
 
     void Start()
     {
@@ -168,6 +169,12 @@ public class GameManager : MonoBehaviour
     void SpawnCollectible(GameObject tile)
     {
         Instantiate(collectiblePrefab, tile.transform.position, enemiesManager.transform.rotation);
+    }
+
+    public void PaintedDark()
+    {
+        darkTileAmount++;
+        lightSphereIcon.GetComponent<ParticleSystem>().Play();
     }
 
 

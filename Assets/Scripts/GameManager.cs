@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using System;
 public class GameManager : MonoBehaviour
 {
     public GameObject tileMap;
@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
     public int darkTileAmount;
     public GameObject lightSphereIcon;
 
+    bool gameEnded = false;
+
     void Start()
     {
         tileMap = GameObject.Find("Tiles");
@@ -47,6 +49,9 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (gameEnded)
+            return;
+            
         int globCounter = 0;
         int blobCounter = 0;
         foreach (Transform obj in enemiesManager.transform)
@@ -83,7 +88,7 @@ public class GameManager : MonoBehaviour
 
                 while (true)
                 {
-                    int index = Random.Range(0, tiles.Count);
+                    int index = UnityEngine.Random.Range(0, tiles.Count);
                     
                     if (tiles[index].state == "Dark")
                     {
@@ -119,7 +124,7 @@ public class GameManager : MonoBehaviour
 
                 while (localCounter2 < tiles.Count)
                 {
-                    int index2 = Random.Range(0, tiles.Count);
+                    int index2 = UnityEngine.Random.Range(0, tiles.Count);
                     
                     if (tiles[index2].state == "Light")
                     {
@@ -149,7 +154,7 @@ public class GameManager : MonoBehaviour
     {
         if (globCounter < 1 && blobCounter < 2)
         {
-            switch (Random.Range(0,2))
+            switch (UnityEngine.Random.Range(0,2))
             {
                 case 0:
                     Instantiate(blobPrefab, tile.transform.position, enemiesManager.transform.rotation, enemiesManager.transform);
@@ -193,7 +198,15 @@ public class GameManager : MonoBehaviour
         GameObject.Find("Health").SetActive(false);
         GameObject.Find("Enemies").SetActive(false);
         GameObject.Find("Map").SetActive(false);
+
+        try
+        {
+            GameObject.Find("Collectible").SetActive(false);
+        }
+        catch(Exception e){}
         gameVictoryPanel.SetActive(true);
+
+        gameEnded = true;
     }
 
     public void Restart()

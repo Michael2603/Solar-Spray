@@ -8,11 +8,23 @@ public class CollectibleScript : MonoBehaviour
     PlayerController player;
     public GameManager manager;
 
+    [SerializeField] AudioClip[] lightSounds;
+    [SerializeField] AudioSource audioSource;
+
     void Start()
     {
         background = GameObject.Find("Background").GetComponent<BackgrondBehaviour>();
         player = GameObject.Find("Player").GetComponent<PlayerController>();
         manager = GameObject.Find("GameManager").GetComponent<GameManager>();
+    }
+
+    void FixedUpdate()
+    {
+        if (!audioSource.isPlaying)
+        {
+            audioSource.clip = lightSounds[Random.Range(0,lightSounds.Length)];
+            audioSource.Play();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D playerCollider)

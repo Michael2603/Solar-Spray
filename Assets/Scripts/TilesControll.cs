@@ -15,6 +15,11 @@ public class TilesControll : MonoBehaviour
 
     public bool lightSphereHit = false;
 
+    public AudioClip[] graffitiSounds;
+    public AudioClip[] paintedSounds;
+    public AudioSource[] audioSources;
+    int paintingStage = 0;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -76,6 +81,7 @@ public class TilesControll : MonoBehaviour
             animator.speed = 0;
         }
 
+        paintingStage = 0;
         ended = true;
 
         if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
@@ -95,6 +101,21 @@ public class TilesControll : MonoBehaviour
                     animator.speed = 1;
                     paintTimer = collider.gameObject.GetComponent<PlayerController>().paintSpeed;
                     ended = true;
+
+                    if(collider.GetComponent<PlayerController>().solstice == false)
+                    {
+                        audioSources[0].clip = graffitiSounds[paintingStage];
+                        audioSources[0].Play();
+                    }
+                    else
+                    {
+                        audioSources[0].clip = graffitiSounds[2];
+                        if (!audioSources[0].isPlaying)
+                            audioSources[0].Play();
+                    }
+
+                    if (paintingStage < 2)
+                        paintingStage++;
                 }
             }
             if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
@@ -113,6 +134,12 @@ public class TilesControll : MonoBehaviour
                 animator.speed = 1;
                 paintTimer = collider.gameObject.GetComponent<Enemy>().paintSpeed;
                 ended = true;
+
+                if (!audioSources[0].isPlaying)
+                {
+                    audioSources[0].clip = graffitiSounds[3];
+                    audioSources[0].Play();
+                }
 
                 collider.GetComponent<Enemy>().moveSpeed = collider.GetComponent<Enemy>().totalMoveSpeed / 2;
 
@@ -136,10 +163,13 @@ public class TilesControll : MonoBehaviour
 
         GameObject lightParticles = this.transform.GetChild(0).gameObject;
         GameObject darkParticles = this.transform.GetChild(1).gameObject;
+        paintingStage = 0;
 
         if (state == "Dark")
         {
             state = "Light";
+            audioSources[1].clip = paintedSounds[0];
+            audioSources[1].Play();
             gameManager.tileCount++;
 
             lightParticles.SetActive(true);
@@ -148,6 +178,8 @@ public class TilesControll : MonoBehaviour
         else
         {
             state = "Dark";
+            audioSources[1].clip = paintedSounds[1];
+            audioSources[1].Play();
             gameManager.tileCount--;
             gameManager.PaintedDark();
             

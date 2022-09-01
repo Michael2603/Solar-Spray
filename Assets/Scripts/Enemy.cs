@@ -11,11 +11,27 @@ public class Enemy : MonoBehaviour
 
     public float paintSpeed;
     TilesControll tileControll;
+    public AudioSource[] audioSources;
+    public AudioClip[] clips;
+
+    bool killed = false;
     
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         moveSpeed = totalMoveSpeed;
+    }
+
+    void Update()
+    {
+        if (killed)
+        {
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+
+            if (!audioSources[1].isPlaying)
+                Destroy(this.gameObject);
+        }
     }
 
     void FixedUpdate()
@@ -67,5 +83,17 @@ public class Enemy : MonoBehaviour
     void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(transform.position, detectionRange);
+    }
+
+    public void Kill()
+    {
+        foreach (AudioSource sources in audioSources)
+        {
+            sources.Stop();
+        }
+
+        audioSources[1].clip = clips[0];
+        audioSources[1].Play();
+        killed = true;
     }
 }

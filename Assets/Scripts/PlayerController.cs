@@ -30,6 +30,9 @@ public class PlayerController : MonoBehaviour
     public GameObject lightSphereIcon;
     public bool canShoot = false;
 
+    public AudioSource[] audioSources;
+    public AudioClip[] clips;
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -88,7 +91,17 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         rigidbody2d.velocity = new Vector3(Input.GetAxis("Horizontal") * moveVel, Input.GetAxis("Vertical") * moveVel, 0);
-        
+        if ((rigidbody2d.velocity.x != 0 || rigidbody2d.velocity.y != 0) && !audioSources[0].isPlaying)
+        {
+            audioSources[0].clip = clips[0];
+            audioSources[0].Play();
+        }
+        else if ((rigidbody2d.velocity.x == 0 && rigidbody2d.velocity.y == 0))
+        {
+            if (audioSources[0].clip == clips[0])
+                audioSources[0].Stop();
+        }
+
         if (solstice)
         {
             timerCounter -= Time.deltaTime;
@@ -113,21 +126,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && other.gameObject.layer == LayerMask.NameToLayer("Tile"))
         {
             other.gameObject.GetComponent<TilesControll>().Paint(GetComponent<Collider2D>());
-            if(!GetComponent<AudioSource>().isPlaying)
-                GetComponent<AudioSource>().Play();
         }
 
         if (Input.GetKeyUp(KeyCode.Space) && other.gameObject.layer == LayerMask.NameToLayer("Tile"))
         {
             other.gameObject.GetComponent<TilesControll>().StopPainting(GetComponent<Collider2D>());
-            GetComponent<AudioSource>().Stop();
         }
     }
 
     void OnCollisionEnter2D(Collision2D other)
     {
         if (solstice && other.collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
-            Destroy(other.collider.gameObject);
+            other.gameObject.GetComponent<Enemy>().Kill();
+            // Destroy(other.collider.gameObject);
     }
     
     void HealthControll()
@@ -196,5 +207,7 @@ public class PlayerController : MonoBehaviour
     public void Hit()
     {
         health--;
+        audioSources[1].clip = clips[1];
+        audioSources[1].Play();
     }
 }

@@ -6,6 +6,8 @@ public class BridgeController : MonoBehaviour
 {
     Collider2D collider;
     SpriteRenderer spriteRenderer;
+    AudioSource audioSource;
+    public AudioClip[] clips;
 
     float timer = 2;
 
@@ -13,6 +15,7 @@ public class BridgeController : MonoBehaviour
     {
         collider = GetComponent<Collider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void FixedUpdate()
@@ -23,14 +26,19 @@ public class BridgeController : MonoBehaviour
         {
             if (collider.enabled == true)
             {
-                collider.enabled = false;
                 spriteRenderer.enabled = true;
+                collider.enabled = false;
+                
+                audioSource.clip = clips[1];
             }
             else
             {
                 spriteRenderer.enabled = false;
                 collider.enabled = true;
+
+                audioSource.clip = clips[0];
             }
+            audioSource.Play();
 
             timer = 18;
         }

@@ -182,6 +182,7 @@ public class PlayerController : MonoBehaviour
     {
         CinemachineVirtualCamera camera = GameObject.Find("CM vcam").GetComponent<CinemachineVirtualCamera>();
 
+        SwitchControllsHUD(true);
         while(camera.m_Lens.OrthographicSize < 5)
         {
             camera.m_Lens.OrthographicSize = Mathf.Lerp(camera.m_Lens.OrthographicSize, 5, .1f);
@@ -195,6 +196,7 @@ public class PlayerController : MonoBehaviour
     {
         CinemachineVirtualCamera camera = GameObject.Find("CM vcam").GetComponent<CinemachineVirtualCamera>();
 
+        SwitchControllsHUD(false);
         while(camera.m_Lens.OrthographicSize > 2.5f)
         {
             camera.m_Lens.OrthographicSize = Mathf.Lerp(camera.m_Lens.OrthographicSize, 2.5f, .2f);
@@ -202,6 +204,23 @@ public class PlayerController : MonoBehaviour
         }
 
         camera.m_Lens.OrthographicSize = 2.5f;
+    }
+
+    void SwitchControllsHUD(bool state)
+    {
+        if (state)
+        {
+            GameObject.Find("Controlls Panel").GetComponent<Animator>().SetBool("Show", true);
+            GameObject.Find("Controlls").GetComponent<Animator>().SetBool("Show", true);
+            GameObject.Find("Buttons Text").GetComponent<Animator>().SetBool("Show", true);
+        }
+        else
+        {
+            GameObject.Find("Controlls Panel").GetComponent<Animator>().SetBool("Show", false);
+            GameObject.Find("Controlls").GetComponent<Animator>().SetBool("Show", false);
+            GameObject.Find("Buttons Text").GetComponent<Animator>().SetBool("Show", false);
+        }
+
     }
 
     public void Hit()

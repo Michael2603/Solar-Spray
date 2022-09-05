@@ -121,10 +121,12 @@ public class TilesControll : MonoBehaviour
             if (collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
             {
                 collider.GetComponent<Enemy>().moveSpeed = collider.GetComponent<Enemy>().totalMoveSpeed;
+                lightSphereHit = false;
             }
             if (collider.gameObject.layer == LayerMask.NameToLayer("LightSphere"))
             {
                 animator.speed = 1;
+                lightSphereHit = true;
             }
         }
         else if (state == "Light")

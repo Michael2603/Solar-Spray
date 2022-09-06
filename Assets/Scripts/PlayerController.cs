@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
     public AudioSource[] audioSources;
     public AudioClip[] clips;
 
+    public GameObject menuButton;
+
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -138,7 +140,6 @@ public class PlayerController : MonoBehaviour
     {
         if (solstice && other.collider.gameObject.layer == LayerMask.NameToLayer("Enemy"))
             other.gameObject.GetComponent<Enemy>().Kill();
-            // Destroy(other.collider.gameObject);
     }
     
     void HealthControll()
@@ -213,12 +214,14 @@ public class PlayerController : MonoBehaviour
             GameObject.Find("Controlls Panel").GetComponent<Animator>().SetBool("Show", true);
             GameObject.Find("Controlls").GetComponent<Animator>().SetBool("Show", true);
             GameObject.Find("Buttons Text").GetComponent<Animator>().SetBool("Show", true);
+            menuButton.SetActive(true);
         }
         else
         {
             GameObject.Find("Controlls Panel").GetComponent<Animator>().SetBool("Show", false);
             GameObject.Find("Controlls").GetComponent<Animator>().SetBool("Show", false);
             GameObject.Find("Buttons Text").GetComponent<Animator>().SetBool("Show", false);
+            menuButton.SetActive(false);
         }
 
     }

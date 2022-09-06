@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
     public int darkTileAmount;
     public GameObject lightSphereIcon;
 
+    public AudioSource audioSource2;
+
     bool gameEnded = false;
 
     void Start()
@@ -209,6 +211,11 @@ public class GameManager : MonoBehaviour
         gameEnded = true;
     }
 
+    public void BacktOMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void Restart()
     {
         SceneManager.LoadScene(1);
@@ -217,5 +224,11 @@ public class GameManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void HudSound()
+    {
+        audioSource2.Stop();
+        audioSource2.Play();
     }
 }

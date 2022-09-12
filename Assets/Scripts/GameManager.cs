@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Screen.SetResolution(1920, 1080, true, 60);
+
         tileMap = GameObject.Find("Tiles");
         enemiesManager = GameObject.Find("Enemies");
 
